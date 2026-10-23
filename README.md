@@ -72,9 +72,14 @@ I prototypens sidepanel kan du:
 - afspille splash-skærmen og fredagsmomentet "Ugen er klar";
 - se tomme tilstande for de vigtigste skærme.
 
-### Del via GitHub Pages
+### Netlify
 
-Slå GitHub Pages til under *Settings → Pages* med kilden `main` / rod. Så ligger prototypen på `https://sibar84.github.io/madro/prototype/` og pitchen på `https://sibar84.github.io/madro/pitch/`. Bemærk, at Pages-sider er offentlige, også fra et privat repository på de fleste planer.
+Netlify bygger fra `main` med `scripts/netlify-build.sh` og udgiver:
+
+- forsiden, prototypen og pitchen på https://madro-vij0.netlify.app (`/prototype/`, `/pitch/`);
+- webversionen af appen på https://madro-vij0.netlify.app/app/.
+
+Hver pull request får sin egen preview. Appen kræver miljøvariablerne `EXPO_PUBLIC_SUPABASE_URL` og `EXPO_PUBLIC_SUPABASE_ANON_KEY` (publishable-nøglen) i Netlify. Begge er offentlige og må ikke markeres som hemmelige.
 
 ## Udvikling af appen
 

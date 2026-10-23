@@ -12,8 +12,11 @@ if (!url || !anonKey) {
   );
 }
 
+// Kun adressens rod bruges, så en indsat Data API-adresse (…/rest/v1/) også virker.
+const projectUrl = new URL(url).origin;
+
 // Typer genereres fra databasen med `npm run db:types`, når projektet er forbundet.
-export const supabase = createClient(url, anonKey, {
+export const supabase = createClient(projectUrl, anonKey, {
   auth: {
     storage: secureStorage,
     autoRefreshToken: true,
