@@ -1,0 +1,6 @@
+:root {
+  --font-display:
+    'Bricolage Grotesque', 'Avenir Next', ui-sans-serif, system-ui, sans-serif;
+  --font-body:
+    -apple-system, BlinkMacSystemFont, 'SF Pro Text', Roboto, 'Segoe UI', system-ui, sans-serif;
+}

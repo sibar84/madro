@@ -1,0 +1,55 @@
+name: App til telefonerne
+
+# Startes manuelt fra fanen Actions.
+# update: sender ny JavaScript til de installerede apps uden ny build.
+# build-ios: bygger en ny iPhone-app og sender den til TestFlight.
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: Hvad skal der ske?
+        type: choice
+        options: [update, build-ios]
+        default: update
+
+jobs:
+  eas:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/madro
+    env:
+      EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+      SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+      PROJECT_REF: ${{ secrets.SUPABASE_PROJECT_REF }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: apps/madro/package-lock.json
+      - uses: expo/expo-github-action@v8
+        with:
+          eas-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+      - uses: supabase/setup-cli@v1
+        with:
+          version: latest
+      - run: npm ci
+      - name: Hent Supabase-adresse og offentlig nøgle
+        run: |
+          key=$(supabase projects api-keys --project-ref "$PROJECT_REF" -o json | jq -r '.[] | select(.name == "anon") | .api_key')
+          echo "EXPO_PUBLIC_SUPABASE_URL=https://$PROJECT_REF.supabase.co" >> "$GITHUB_ENV"
+          echo "EXPO_PUBLIC_SUPABASE_ANON_KEY=$key" >> "$GITHUB_ENV"
+      - name: Opdatering
+        if: inputs.action == 'update'
+        run: eas update --channel preview --message "Opdatering fra ${{ github.sha }}" --non-interactive
+      - name: iPhone-build til TestFlight
+        if: inputs.action == 'build-ios'
+        # Buildet kører hos Expo, så de offentlige værdier skal med i eas.json.
+        run: |
+          jq --arg url "$EXPO_PUBLIC_SUPABASE_URL" --arg key "$EXPO_PUBLIC_SUPABASE_ANON_KEY" \
+            '.build.production.env = {EXPO_PUBLIC_SUPABASE_URL: $url, EXPO_PUBLIC_SUPABASE_ANON_KEY: $key}' \
+            eas.json > eas.tmp.json && mv eas.tmp.json eas.json
+          eas build --platform ios --profile production --auto-submit --non-interactive

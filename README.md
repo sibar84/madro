@@ -12,6 +12,7 @@ En madplansapp til familier, der samler ugens plan, indkøb, køkken og madbudge
 - [Hvad er Madro?](#hvad-er-madro)
 - [Status](#status)
 - [Kom i gang](#kom-i-gang)
+- [Udvikling af appen](#udvikling-af-appen)
 - [Mappestruktur](#mappestruktur)
 - [De fire universer](#de-fire-universer)
 - [Sådan fungerer planen](#sådan-fungerer-planen)
@@ -50,7 +51,7 @@ Madro er på konceptstadiet. Repositoriet rummer:
 | Pitch | v16 | Præsentation af problem, løsning, målgruppe, forretningsmodel, roadmap og bevægelsessprog |
 | Brand | 1.0 | Endeligt logo i alle varianter, farvepalet og typografi |
 
-Der er endnu ingen backend. Al data i prototypen er eksempeldata.
+Version 1 er under udvikling i `apps/madro` (Expo) og `supabase` (database). Fase 0 er fundamentet: login med kode på mail, husstand med invitationer, rækkesikkerhed og de fem faner. Al data i prototypen er stadig eksempeldata.
 
 ## Kom i gang
 
@@ -75,10 +76,34 @@ I prototypens sidepanel kan du:
 
 Slå GitHub Pages til under *Settings → Pages* med kilden `main` / rod. Så ligger prototypen på `https://sibar84.github.io/madro/prototype/` og pitchen på `https://sibar84.github.io/madro/pitch/`. Bemærk, at Pages-sider er offentlige, også fra et privat repository på de fleste planer.
 
+## Udvikling af appen
+
+Appen er bygget med Expo til iPhone, Android og web, og bruger Supabase i EU (Frankfurt) til login, database og filer. Se [apps/madro/README.md](apps/madro/README.md) for at starte appen lokalt.
+
+**Database.** Migrationer ligger i `supabase/migrations`. Husstanden er sikkerhedsgrænsen: hver tabel med familiedata har rækkesikkerhed, og `supabase/tests/rls.sql` tester, at fremmede ikke kan se eller ændre noget. Kør testen lokalt med Supabase CLI:
+
+```bash
+supabase db start
+psql "postgresql://postgres:postgres@127.0.0.1:54322/postgres" -v ON_ERROR_STOP=1 -f supabase/tests/rls.sql
+```
+
+**GitHub Actions.**
+
+| Workflow | Hvornår | Hvad |
+|---|---|---|
+| CI | Hver pull request | Lint, typecheck og web-build af appen. Migrationer og rækkesikkerhedstest mod en frisk database. |
+| Udrul database | Ændringer i `supabase/` på main | Kører migrationer og login-opsætning mod Supabase-projektet. |
+| App til telefonerne | Manuelt | `update` sender ny kode til installerede apps. `build-ios` bygger til TestFlight. |
+
+Udrulningen bruger hemmelighederne `SUPABASE_ACCESS_TOKEN`, `SUPABASE_PROJECT_REF`, `SUPABASE_DB_PASSWORD` og `EXPO_TOKEN` under *Settings → Secrets and variables → Actions*. Nøgler lægges aldrig i koden.
+
 ## Mappestruktur
 
 ```
 madro/
+├── apps/madro/         Expo-appen (iPhone, Android, web)
+├── supabase/           Migrationer, tests, mailskabeloner og Supabase-opsætning
+├── .github/workflows/  CI og udrulning
 ├── prototype/
 │   └── index.html      Klikbar prototype (HTML, CSS og JS i én fil)
 ├── pitch/
@@ -217,12 +242,12 @@ Illustrationssproget **"Snit"** bygger på cirkel, ring, blad, streg og snit. Te
 
 ## Teknisk retning
 
-Det er et forslag og er ikke besluttet endnu:
+Besluttet 23. oktober 2026:
 
-- **App:** Expo (React Native) i TypeScript til iOS, Android og web
-- **Backend:** TypeScript-monolit med Postgres hostet i EU
-- **Planlægning:** regelmotor til at lægge planen
-- **Data:** licens til tilbudsdata skal være på plads, før udviklingen starter
+- **App:** Expo (React Native) i TypeScript til iOS, Android og web fra start
+- **Backend:** Supabase i EU (Postgres, login, filer, live-opdatering, Edge Functions)
+- **Planlægning:** regelmotor lægger planen. AI bruges kun til kvitteringer, opskriftsimport, tilbudsaviser og kategorier
+- **Tilbud:** offentlige tilbudsaviser læses af AI, og kun fakta gemmes. Juridisk afklaring eller licens før andre familier end testfamilien
 
 ## Åbne punkter
 
