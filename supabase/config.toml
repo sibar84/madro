@@ -138,7 +138,7 @@ enabled = true
 [storage.analytics]
 # Matcher det hostede projekt, så config push ikke skal skrive lageropsætning.
 enabled = true
-max_namespaces = 5
+max_namespaces = 10
 max_tables = 10
 max_catalogs = 2
 
