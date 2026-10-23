@@ -32,7 +32,7 @@ export default function AppTabs() {
 
 function TabButton({ children, isFocused, ref: _ref, ...props }: TabTriggerSlotProps) {
   return (
-    <Pressable {...props} style={({ pressed }) => pressed && styles.pressed}>
+    <Pressable {...props} style={({ pressed }) => [styles.tab, pressed && styles.pressed]}>
       <ThemedView type={isFocused ? 'beetSoft' : 'card'} style={styles.tabButton}>
         <ThemedText type="sub" themeColor={isFocused ? 'text' : 'textSecondary'}>
           {children}
@@ -69,9 +69,16 @@ const styles = StyleSheet.create({
     width: '100%',
     maxWidth: MaxContentWidth,
   },
+  // Fanerne deler bredden, så de også kan være på en smal telefon.
+  tab: {
+    flexGrow: 1,
+    flexShrink: 1,
+    minWidth: 0,
+  },
   tabButton: {
+    alignItems: 'center',
     paddingVertical: Spacing.two,
-    paddingHorizontal: Spacing.three,
+    paddingHorizontal: Spacing.one,
     borderRadius: Radius.pill,
   },
   pressed: {
