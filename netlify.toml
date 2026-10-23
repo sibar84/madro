@@ -8,6 +8,12 @@
 [build.environment]
   NODE_VERSION = "22"
 
+# En kodefil, der ikke findes (fx fra en ældre udgave), skal give 404 og ikke index.html.
+[[redirects]]
+  from = "/app/_expo/*"
+  to = "/404.html"
+  status = 404
+
 # Appen styrer selv sine adresser, så alle undersider under /app/ får index.html.
 [[redirects]]
   from = "/app/*"
