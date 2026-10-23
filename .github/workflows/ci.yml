@@ -39,7 +39,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: supabase/setup-cli@v1
         with:
-          version: latest
+          version: 2.121.0
       - name: Start lokal Supabase
         run: supabase db start
       - name: Test rækkesikkerhed
