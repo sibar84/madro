@@ -13,6 +13,14 @@ if [ -z "${EXPO_PUBLIC_SUPABASE_URL:-}" ] || [ -z "${EXPO_PUBLIC_SUPABASE_ANON_K
   exit 1
 fi
 
+case "$EXPO_PUBLIC_SUPABASE_URL" in
+  https://*) ;;
+  *)
+    echo "EXPO_PUBLIC_SUPABASE_URL skal starte med https:// (fx https://<ref>.supabase.co). Ret værdien i Netlify."
+    exit 1
+    ;;
+esac
+
 cd apps/madro
 npm ci
 npx expo export --platform web --output-dir ../../_site/app
