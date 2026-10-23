@@ -1,5 +1,5 @@
-import { ComingSoon } from '@/screens/coming-soon';
+import { Plan } from '@/screens/plan';
 
 export default function PlanRoute() {
-  return <ComingSoon title="Plan" tone="leafSoft" text="Ugens madplan med måltider til hele familien. Bygges i fase 1." />;
+  return <Plan />;
 }

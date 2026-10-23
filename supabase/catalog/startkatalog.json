@@ -1,0 +1,4283 @@
+[
+ {
+  "id": "6630dcb5-d4b2-5e1c-9335-c6322417bffd",
+  "name": "Boller i karry med ris og ærter",
+  "main_protein": "Kødboller",
+  "protein_tags": [
+   "hakket"
+  ],
+  "vegetables": "Ærter",
+  "ingredients": [
+   "Kødboller",
+   "karry",
+   "ris",
+   "ærter"
+  ],
+  "allergens": [
+   "aeg",
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/boller-i-karry/",
+  "note": ""
+ },
+ {
+  "id": "53028376-813c-5af0-9594-3d45e3a5120b",
+  "name": "Lasagne med oksekød og bechamel",
+  "main_protein": "Oksekød",
+  "protein_tags": [
+   "okse"
+  ],
+  "vegetables": "Tomat, evt. gulerod",
+  "ingredients": [
+   "Hakket oksekød",
+   "lasagneplader",
+   "bechamel",
+   "tomat",
+   "ost"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "lang",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/lasagne/",
+  "note": "God til at lave 2 fade og fryse et ned"
+ },
+ {
+  "id": "45420368-e48d-5616-8a73-5b43390713e7",
+  "name": "Svensk pølseret med pølser og kartofler",
+  "main_protein": "Pølser",
+  "protein_tags": [
+   "svin"
+  ],
+  "vegetables": "Løg",
+  "ingredients": [
+   "Pølser",
+   "kartofler",
+   "løg"
+  ],
+  "allergens": [],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "hurtig",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/svensk-polseret/",
+  "note": ""
+ },
+ {
+  "id": "f16a7d20-804b-5cbd-af28-2c2880b42621",
+  "name": "Spaghetti bolognese med revet ost",
+  "main_protein": "Hakket oksekød",
+  "protein_tags": [
+   "okse",
+   "hakket"
+  ],
+  "vegetables": "Tomat, gulerod, løg",
+  "ingredients": [
+   "Hakket oksekød",
+   "pasta",
+   "tomatsauce",
+   "ost"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/pasta-med-kodsauce/",
+  "note": ""
+ },
+ {
+  "id": "7551eb15-7e13-548b-87a3-eca52d019749",
+  "name": "Mørbradgryde med ris eller kartoffelmos",
+  "main_protein": "Svinemørbrad",
+  "protein_tags": [
+   "svin"
+  ],
+  "vegetables": "Løg, champignon",
+  "ingredients": [
+   "Mørbrad",
+   "fløde/sauce",
+   "ris eller kartofler"
+  ],
+  "allergens": [
+   "maelk"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/morbradgryde/",
+  "note": ""
+ },
+ {
+  "id": "71fde097-23f1-550d-abed-aed30211bf45",
+  "name": "Hakkebøffer med bløde løg og brun sovs",
+  "main_protein": "Hakket oksekød",
+  "protein_tags": [
+   "okse",
+   "hakket"
+  ],
+  "vegetables": "Løg",
+  "ingredients": [
+   "Hakket oksekød",
+   "løg",
+   "sovs",
+   "kartofler"
+  ],
+  "allergens": [
+   "maelk"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": null,
+  "note": ""
+ },
+ {
+  "id": "265b1397-58a5-5e8f-a581-33c5b54e6b7f",
+  "name": "Koteletter i fad med paprika og bacon",
+  "main_protein": "Svinekoteletter, bacon",
+  "protein_tags": [
+   "svin"
+  ],
+  "vegetables": "Peberfrugt",
+  "ingredients": [
+   "Koteletter",
+   "bacon",
+   "peberfrugt",
+   "fløde"
+  ],
+  "allergens": [
+   "maelk"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": null,
+  "note": ""
+ },
+ {
+  "id": "f8751187-fa77-5950-ba4b-44f572e76269",
+  "name": "Fiskefileter med remoulade og kartofler",
+  "main_protein": "Fisk",
+  "protein_tags": [
+   "fisk"
+  ],
+  "vegetables": "Remoulade m. grønt",
+  "ingredients": [
+   "Fiskefileter",
+   "kartofler",
+   "remoulade"
+  ],
+  "allergens": [
+   "fisk",
+   "aeg",
+   "sennep"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "hurtig",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": null,
+  "note": ""
+ },
+ {
+  "id": "88c6d0bf-2102-5278-8b07-130b946cc04f",
+  "name": "Hjemmelavede burgere med oksekød",
+  "main_protein": "Oksekød",
+  "protein_tags": [
+   "okse"
+  ],
+  "vegetables": "Salat, tomat",
+  "ingredients": [
+   "Hakket oksekød",
+   "burgerboller",
+   "salat",
+   "tomat",
+   "ost"
+  ],
+  "allergens": [
+   "aeg",
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": null,
+  "note": ""
+ },
+ {
+  "id": "bc865a3e-ffeb-5704-85f1-5dc16a0077e7",
+  "name": "Pizza med fyld efter eget valg",
+  "main_protein": "Varierer (kylling/hakket kød/skinke)",
+  "protein_tags": [
+   "kylling",
+   "svin",
+   "hakket"
+  ],
+  "vegetables": "Peberfrugt, tomat, løg",
+  "ingredients": [
+   "Pizzadej",
+   "gær",
+   "tomatsauce",
+   "ost",
+   "fyld"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "lang",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": null,
+  "note": "Dej skal hæve - kun weekend/fridag"
+ },
+ {
+  "id": "36ca40ef-6f67-52ce-a01a-5ab378319750",
+  "name": "Kylling i karry med bløde grøntsager",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Gulerod, blomkål mm.",
+  "ingredients": [
+   "Kylling",
+   "karry",
+   "grøntsager",
+   "ris"
+  ],
+  "allergens": [
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/kylling-i-karry/",
+  "note": ""
+ },
+ {
+  "id": "9240fb8e-0d7e-53c6-a8e4-8cff0b2f0247",
+  "name": "Kyllingenuggets med ovnkartofler",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Ovnkartofler (tilføj grønt salat ved siden)",
+  "ingredients": [
+   "Kyllingenuggets",
+   "kartofler"
+  ],
+  "allergens": [
+   "aeg",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": true,
+  "double_portion": true,
+  "effort": "hurtig",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": null,
+  "note": "Server gerne agurk/tomat ved siden for vitaminer"
+ },
+ {
+  "id": "0f731d7c-23a6-5d92-ac2e-bc5b8c564f78",
+  "name": "Frikadeller med stuvet hvidkål",
+  "main_protein": "Hakket svin/kalv",
+  "protein_tags": [
+   "svin",
+   "hakket"
+  ],
+  "vegetables": "Hvidkål",
+  "ingredients": [
+   "Hakket kød",
+   "hvidkål",
+   "mel/smør"
+  ],
+  "allergens": [
+   "aeg",
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   9,
+   10,
+   11,
+   12,
+   1,
+   2
+  ],
+  "recipe_url": null,
+  "note": ""
+ },
+ {
+  "id": "502a7cf3-5cec-57fa-adcf-daef4e8af32d",
+  "name": "Millionbøf med kartoffelmos",
+  "main_protein": "Hakket oksekød",
+  "protein_tags": [
+   "okse",
+   "hakket"
+  ],
+  "vegetables": "Løg, gulerod",
+  "ingredients": [
+   "Hakket oksekød",
+   "løg",
+   "sovs",
+   "kartoffelmos"
+  ],
+  "allergens": [
+   "maelk"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/millionbof/",
+  "note": ""
+ },
+ {
+  "id": "71860f17-fd9a-59ec-ac70-ea701c8f29b5",
+  "name": "Flæskesteg med sprøde svær",
+  "main_protein": "Svinekød",
+  "protein_tags": [
+   "svin"
+  ],
+  "vegetables": "Rødkål",
+  "ingredients": [
+   "Flæskesteg",
+   "rødkål",
+   "kartofler"
+  ],
+  "allergens": [],
+  "kid_friendly": "delvist",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "lang",
+  "months": [
+   9,
+   10,
+   11,
+   12,
+   1,
+   2
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/flaskesteg-med-sprod-svar/",
+  "note": "Passer bedst efterår/vinter - ikke oplagt om sommeren"
+ },
+ {
+  "id": "47569edf-185c-532d-8fa6-9fe136d9c848",
+  "name": "Fyldte pandekager med kylling og grønt",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Blandet grønt",
+  "ingredients": [
+   "Pandekager",
+   "kylling",
+   "grøntsager",
+   "sauce"
+  ],
+  "allergens": [
+   "aeg",
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/spinatpandekager-med-kylling/",
+  "note": "Bedst frisk"
+ },
+ {
+  "id": "c7bff047-d31a-581a-9571-36d2644cc700",
+  "name": "Kyllingelår i ovn med pomfritter",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Pomfritter (tilføj salat ved siden)",
+  "ingredients": [
+   "Kyllingelår",
+   "pomfritter",
+   "krydderier"
+  ],
+  "allergens": [],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/kyllingelar-i-airfryer/",
+  "note": ""
+ },
+ {
+  "id": "4f535787-c580-5974-9a4f-029c9c79c79e",
+  "name": "Gyros/pita med kyllingekød",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Salat, tomat, agurk",
+  "ingredients": [
+   "Kyllingekød",
+   "pitabrød",
+   "dressing",
+   "salat"
+  ],
+  "allergens": [
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "mellem",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": null,
+  "note": ""
+ },
+ {
+  "id": "ea0250a8-af52-5f6e-b0c7-0df55c6c9029",
+  "name": "Tarteletter med høns i asparges",
+  "main_protein": "Høns/kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Asparges",
+  "ingredients": [
+   "Tarteletter",
+   "hønsekød",
+   "asparges",
+   "sauce"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "delvist",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "mellem",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": null,
+  "note": ""
+ },
+ {
+  "id": "629d5001-ba47-5036-bd73-191c6ebc3b1b",
+  "name": "Skinke med flødekartofler",
+  "main_protein": "Skinke",
+  "protein_tags": [
+   "svin"
+  ],
+  "vegetables": "Tilføj grønne bønner ved siden",
+  "ingredients": [
+   "Skinke",
+   "kartofler",
+   "fløde",
+   "ost"
+  ],
+  "allergens": [
+   "maelk"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": null,
+  "note": ""
+ },
+ {
+  "id": "c14c5072-a3e2-5236-9b2f-de29a28d9b48",
+  "name": "Tomatsuppe med suppehorn",
+  "main_protein": "Suppehorn (lavt protein)",
+  "protein_tags": [
+   "andet"
+  ],
+  "vegetables": "Tomat",
+  "ingredients": [
+   "Tomat",
+   "suppehorn",
+   "fløde"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "hurtig",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/tomatsuppe/",
+  "note": "Overvej ekstra protein (kylling/bacon) for balance"
+ },
+ {
+  "id": "94bd5d2e-827a-5718-a224-92d20fcc75d5",
+  "name": "Kartoffelsuppe med bacon",
+  "main_protein": "Bacon",
+  "protein_tags": [
+   "svin"
+  ],
+  "vegetables": "Kartofler, porre",
+  "ingredients": [
+   "Kartofler",
+   "bacon",
+   "porre",
+   "fløde"
+  ],
+  "allergens": [
+   "maelk"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   9,
+   10,
+   11,
+   12,
+   1,
+   2
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/kartoffelsuppe-med-porrer/",
+  "note": ""
+ },
+ {
+  "id": "682727ae-f49f-5894-8742-3d8c479e6077",
+  "name": "Hønsekødssuppe med boller",
+  "main_protein": "Hønsekød, boller",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Gulerod, porre",
+  "ingredients": [
+   "Hønsekød",
+   "boller",
+   "rodfrugter"
+  ],
+  "allergens": [
+   "aeg",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "lang",
+  "months": [
+   9,
+   10,
+   11,
+   12,
+   1,
+   2
+  ],
+  "recipe_url": "https://www.valdemarsro.dk/hoensekoedssuppe-med-koedboller/",
+  "note": "Lang kogetid på hønsekødet"
+ },
+ {
+  "id": "7b6cd1a9-677d-52a7-b76b-6f0807eec7b4",
+  "name": "Gullasch med kartoffelmos",
+  "main_protein": "Okse-/svinekød i tern",
+  "protein_tags": [
+   "okse",
+   "svin"
+  ],
+  "vegetables": "Peberfrugt, løg",
+  "ingredients": [
+   "Gullaschkød",
+   "peberfrugt",
+   "løg",
+   "paprika"
+  ],
+  "allergens": [
+   "maelk"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "lang",
+  "months": [
+   9,
+   10,
+   11,
+   12,
+   1,
+   2
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/gullasch/",
+  "note": "Langtidssimret"
+ },
+ {
+  "id": "783cd0b0-24ce-561e-a98e-ab5636a0932a",
+  "name": "Chili con carne med ris og brød",
+  "main_protein": "Hakket oksekød, bønner",
+  "protein_tags": [
+   "okse",
+   "hakket"
+  ],
+  "vegetables": "Peberfrugt, tomat, bønner",
+  "ingredients": [
+   "Hakket kød",
+   "bønner",
+   "tomat",
+   "peberfrugt"
+  ],
+  "allergens": [
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/chili-con-carne/",
+  "note": ""
+ },
+ {
+  "id": "85330260-0e5b-5daa-b667-a1eaf8a23d01",
+  "name": "Tortellini-suppe med grøntsager",
+  "main_protein": "Tortellini (kød-/ostefyld)",
+  "protein_tags": [
+   "hakket"
+  ],
+  "vegetables": "Blandede grøntsager",
+  "ingredients": [
+   "Tortellini",
+   "bouillon",
+   "grøntsager"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten",
+   "selleri"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "hurtig",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": null,
+  "note": ""
+ },
+ {
+  "id": "e4f30fcd-dfe7-58c5-ae56-3f954aed381d",
+  "name": "Forloren hare med tyttebærsyltetøj",
+  "main_protein": "Hakket kød, bacon",
+  "protein_tags": [
+   "svin",
+   "hakket"
+  ],
+  "vegetables": "Tilføj grønt ved siden",
+  "ingredients": [
+   "Hakket kød",
+   "bacon",
+   "tyttebærsyltetøj",
+   "kartofler"
+  ],
+  "allergens": [],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   9,
+   10,
+   11,
+   12,
+   1,
+   2
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/forloren-hare/",
+  "note": ""
+ },
+ {
+  "id": "c8041ad7-1909-577d-8772-eab03447edec",
+  "name": "Æggekage med tomat og purløg",
+  "main_protein": "Æg, evt. bacon",
+  "protein_tags": [
+   "svin",
+   "aeg"
+  ],
+  "vegetables": "Tomat, purløg",
+  "ingredients": [
+   "Æg",
+   "bacon",
+   "tomat",
+   "purløg",
+   "brød"
+  ],
+  "allergens": [
+   "aeg",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "hurtig",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/aggekage/",
+  "note": ""
+ },
+ {
+  "id": "d5b291bd-d349-5376-aa88-4b7f1e240cd6",
+  "name": "Fiskefrikadeller med dijonsauce",
+  "main_protein": "Fisk",
+  "protein_tags": [
+   "fisk"
+  ],
+  "vegetables": "Tilføj salat/grønt ved siden",
+  "ingredients": [
+   "Fiskefars",
+   "dijonsennep",
+   "fløde"
+  ],
+  "allergens": [
+   "fisk",
+   "aeg",
+   "maelk",
+   "gluten",
+   "sennep"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": null,
+  "note": ""
+ },
+ {
+  "id": "2e8e5589-8aaf-50a2-a75d-12fa5a1bd8c7",
+  "name": "Kryddermørbrad i ovn",
+  "main_protein": "Svinemørbrad",
+  "protein_tags": [
+   "svin"
+  ],
+  "vegetables": "Ovnbagte grøntsager ved siden",
+  "ingredients": [
+   "Mørbrad",
+   "krydderier",
+   "kartofler"
+  ],
+  "allergens": [],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.hurtigmums.dk/moerbrad-i-ovn/",
+  "note": ""
+ },
+ {
+  "id": "1cdf2ce1-ea15-5d8f-a0d8-8f522d341945",
+  "name": "Pasta carbonara uden fløde",
+  "main_protein": "Bacon, æg",
+  "protein_tags": [
+   "svin",
+   "aeg"
+  ],
+  "vegetables": "Tilføj grøn salat ved siden",
+  "ingredients": [
+   "Pasta",
+   "bacon",
+   "æg",
+   "parmesan"
+  ],
+  "allergens": [
+   "aeg",
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "hurtig",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": null,
+  "note": "Bedst frisklavet pga. æg"
+ },
+ {
+  "id": "90996faa-8ba6-586a-bc22-69c425a2f282",
+  "name": "Pasta med kødsovs i fad",
+  "main_protein": "Hakket kød",
+  "protein_tags": [
+   "hakket"
+  ],
+  "vegetables": "Tomat",
+  "ingredients": [
+   "Pasta",
+   "hakket kød",
+   "tomatsauce",
+   "ost"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/pasta-med-kodsauce/",
+  "note": ""
+ },
+ {
+  "id": "123abf86-b32f-5bbf-bbe5-5404127d5e74",
+  "name": "One-pot pasta med grøntsager",
+  "main_protein": "Tilføj kylling/bønner for protein",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Blandede grøntsager",
+  "ingredients": [
+   "Pasta",
+   "grøntsager",
+   "bouillon"
+  ],
+  "allergens": [
+   "gluten",
+   "selleri"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "hurtig",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/one-pot-pasta/",
+  "note": "Tilføj altid kylling eller bacon - ikke rent vegetarisk"
+ },
+ {
+  "id": "c2012490-2120-518d-827d-8c124043bedf",
+  "name": "Bagt pasta med skinke og ost",
+  "main_protein": "Skinke, ost",
+  "protein_tags": [
+   "svin"
+  ],
+  "vegetables": "Tilføj broccoli",
+  "ingredients": [
+   "Pasta",
+   "skinke",
+   "ost",
+   "fløde"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": null,
+  "note": ""
+ },
+ {
+  "id": "8c7027ee-8e40-53b4-ba12-2c6d9505a8a8",
+  "name": "Paella med kylling og rejer",
+  "main_protein": "Kylling, rejer",
+  "protein_tags": [
+   "kylling",
+   "skaldyr"
+  ],
+  "vegetables": "Peberfrugt, ærter",
+  "ingredients": [
+   "Ris",
+   "kylling",
+   "rejer",
+   "peberfrugt",
+   "safran"
+  ],
+  "allergens": [
+   "skaldyr"
+  ],
+  "kid_friendly": "delvist",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "lang",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": null,
+  "note": ""
+ },
+ {
+  "id": "093f21bc-1aa1-5a1a-9cc0-dc514ce9f25f",
+  "name": "Risotto med ærter og parmesan",
+  "main_protein": "Parmesan (lavt protein)",
+  "protein_tags": [
+   "andet"
+  ],
+  "vegetables": "Ærter",
+  "ingredients": [
+   "Ris",
+   "ærter",
+   "parmesan",
+   "bouillon"
+  ],
+  "allergens": [
+   "maelk",
+   "selleri"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "mellem",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": null,
+  "note": "Tilføj altid kylling - ikke rent vegetarisk"
+ },
+ {
+  "id": "45ec6427-aea7-5207-aab3-eb8032ede930",
+  "name": "Nudler med lynstegt oksekød",
+  "main_protein": "Oksekød",
+  "protein_tags": [
+   "okse"
+  ],
+  "vegetables": "Peberfrugt, forårsløg",
+  "ingredients": [
+   "Oksekød i strimler",
+   "nudler",
+   "sojasovs",
+   "grøntsager"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten",
+   "soja"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "hurtig",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": null,
+  "note": "Bedst frisk/sprødt"
+ },
+ {
+  "id": "dcdd86cb-3873-5f99-acb2-f4e080068fe6",
+  "name": "Wokret med ris og peanuts",
+  "main_protein": "Kylling (evt.)",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Blandede wokgrøntsager",
+  "ingredients": [
+   "Kylling",
+   "ris",
+   "wokgrønt",
+   "peanuts",
+   "soja"
+  ],
+  "allergens": [
+   "jordnoedder",
+   "gluten",
+   "soja"
+  ],
+  "kid_friendly": "delvist",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "hurtig",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": null,
+  "note": "Indeholder peanuts"
+ },
+ {
+  "id": "94420b1a-f7fc-549e-882c-63679061d934",
+  "name": "Kyllingeburger med coleslaw",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Coleslaw (kål, gulerod)",
+  "ingredients": [
+   "Kyllingebryst",
+   "burgerbolle",
+   "coleslaw"
+  ],
+  "allergens": [
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": null,
+  "note": ""
+ },
+ {
+  "id": "20ee694b-04bf-5702-8dfb-17a6e095f358",
+  "name": "Tarteletter med skinke og ærter",
+  "main_protein": "Skinke",
+  "protein_tags": [
+   "svin"
+  ],
+  "vegetables": "Ærter",
+  "ingredients": [
+   "Tarteletter",
+   "skinke",
+   "ærter",
+   "sauce"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "mellem",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": "https://mambeno.dk/opskrifter/tartletter-med-skinke-og-aerter/",
+  "note": ""
+ },
+ {
+  "id": "60bddad8-0729-566b-b2aa-37c963d4e124",
+  "name": "Skinketærte med broccoli",
+  "main_protein": "Skinke, æg",
+  "protein_tags": [
+   "svin",
+   "aeg"
+  ],
+  "vegetables": "Broccoli",
+  "ingredients": [
+   "Mørdej",
+   "skinke",
+   "æg",
+   "broccoli",
+   "fløde"
+  ],
+  "allergens": [
+   "aeg",
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://mummum.dk/taerte-med-skinke-og-broccoli/",
+  "note": ""
+ },
+ {
+  "id": "475891cc-37e8-5daf-a280-12686cd302f5",
+  "name": "Løgtærte med bacon",
+  "main_protein": "Bacon, æg",
+  "protein_tags": [
+   "svin",
+   "aeg"
+  ],
+  "vegetables": "Løg",
+  "ingredients": [
+   "Mørdej",
+   "løg",
+   "bacon",
+   "æg",
+   "fløde"
+  ],
+  "allergens": [
+   "aeg",
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://madensverden.dk/loegtaerte/",
+  "note": ""
+ },
+ {
+  "id": "88cca251-6934-56b7-aff8-b5eb500b8b88",
+  "name": "Mexicanske wraps med oksekød",
+  "main_protein": "Oksekød",
+  "protein_tags": [
+   "okse"
+  ],
+  "vegetables": "Salat, tomat, peberfrugt",
+  "ingredients": [
+   "Hakket oksekød",
+   "wraps",
+   "salat",
+   "tomat",
+   "ost"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "hurtig",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://madensverden.dk/wraps-hakket-oksekoed/",
+  "note": ""
+ },
+ {
+  "id": "d21da507-de5c-5c37-b280-76ed4dc7d3f3",
+  "name": "Nachos med ost og jalapenos",
+  "main_protein": "Tilføj hakket kød/bønner",
+  "protein_tags": [
+   "hakket"
+  ],
+  "vegetables": "Jalapenos, tomat/salsa",
+  "ingredients": [
+   "Nachochips",
+   "ost",
+   "jalapenos",
+   "salsa"
+  ],
+  "allergens": [
+   "maelk"
+  ],
+  "kid_friendly": "delvist",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "hurtig",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://mummum.dk/nachos-med-oksekoed-og-ost/",
+  "note": "Tilføj altid hakket kød, lav mild version til børnene"
+ },
+ {
+  "id": "8193abea-42b9-5ed4-8568-a164d2971c70",
+  "name": "Pitabrød med tunmousse",
+  "main_protein": "Tun",
+  "protein_tags": [
+   "fisk"
+  ],
+  "vegetables": "Salat, agurk",
+  "ingredients": [
+   "Tun",
+   "pitabrød",
+   "salat",
+   "mayo"
+  ],
+  "allergens": [
+   "fisk",
+   "aeg",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "hurtig",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": "https://mambeno.dk/opskrifter/tunmousse/",
+  "note": ""
+ },
+ {
+  "id": "c267d1e7-4226-5cb5-bf7f-baa910628255",
+  "name": "Sandwich med kylling og bacon",
+  "main_protein": "Kylling, bacon",
+  "protein_tags": [
+   "kylling",
+   "svin"
+  ],
+  "vegetables": "Salat, tomat",
+  "ingredients": [
+   "Kylling",
+   "bacon",
+   "brød",
+   "salat"
+  ],
+  "allergens": [
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "hurtig",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": "https://mambeno.dk/opskrifter/sandwich-med-kylling-og-bacon-hertil-sprode-kartoffeltern/",
+  "note": ""
+ },
+ {
+  "id": "2875b605-e9ba-5565-9b38-7454f4cabfa1",
+  "name": "Brændende kærlighed med kartoffelmos",
+  "main_protein": "Bacon",
+  "protein_tags": [
+   "svin"
+  ],
+  "vegetables": "Løg",
+  "ingredients": [
+   "Bacon",
+   "løg",
+   "kartoffelmos"
+  ],
+  "allergens": [
+   "maelk"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "hurtig",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/brandende-karlighed/",
+  "note": ""
+ },
+ {
+  "id": "448ac825-9236-593f-89ed-64862f4210d4",
+  "name": "Forloren skildpadde",
+  "main_protein": "Hakket kalve-/svinekød",
+  "protein_tags": [
+   "svin",
+   "hakket"
+  ],
+  "vegetables": "Ærter, gulerod",
+  "ingredients": [
+   "Hakket kød",
+   "sauce",
+   "kapers",
+   "kartofler"
+  ],
+  "allergens": [],
+  "kid_friendly": "delvist",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "lang",
+  "months": [
+   11,
+   12,
+   1,
+   2
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/forloren-skildpadde/",
+  "note": "Klassisk julemiddagsret - passer ikke til sommer"
+ },
+ {
+  "id": "5eae555f-e4fe-5a70-9701-6f696d72204e",
+  "name": "Stjerneskud til weekendhygge",
+  "main_protein": "Fisk, rejer",
+  "protein_tags": [
+   "fisk",
+   "skaldyr"
+  ],
+  "vegetables": "Asparges, citron",
+  "ingredients": [
+   "Fiskefilet",
+   "rejer",
+   "røget laks",
+   "asparges",
+   "brød"
+  ],
+  "allergens": [
+   "skaldyr",
+   "fisk",
+   "gluten"
+  ],
+  "kid_friendly": "delvist",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "lang",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": null,
+  "note": "Til hyggeaftener i weekenden"
+ },
+ {
+  "id": "63b977c7-4d64-50c5-b88c-6dfafe80e5a2",
+  "name": "Pikant kylling i fad",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Peberfrugt, tomat",
+  "ingredients": [
+   "Kyllingefilet",
+   "paprika",
+   "peberfrugt",
+   "fløde"
+  ],
+  "allergens": [
+   "maelk"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/pikant-kylling-i-fad/",
+  "note": "Dansk klassiker, mild version til børn"
+ },
+ {
+  "id": "9ec67f0c-8164-594e-95c1-7f7b5cf4b5e0",
+  "name": "One pot med laks og spinat",
+  "main_protein": "Laks",
+  "protein_tags": [
+   "laks"
+  ],
+  "vegetables": "Spinat",
+  "ingredients": [
+   "Laksefilet",
+   "spinat",
+   "fløde",
+   "pasta/ris"
+  ],
+  "allergens": [
+   "fisk",
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "hurtig",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/one-pot-med-laks-og-spinat/",
+  "note": ""
+ },
+ {
+  "id": "b6c9b43e-6625-507e-88fe-cc38bc2b3e74",
+  "name": "Pasta med røget laks",
+  "main_protein": "Røget laks",
+  "protein_tags": [
+   "laks"
+  ],
+  "vegetables": "Evt. tilføj ærter/spinat",
+  "ingredients": [
+   "Pasta",
+   "røget laks",
+   "fløde",
+   "citron"
+  ],
+  "allergens": [
+   "fisk",
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "hurtig",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/pasta-med-roget-laks/",
+  "note": ""
+ },
+ {
+  "id": "53889018-a14f-5896-b2a1-4c8bb4ec86eb",
+  "name": "Marry me chicken",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Soltørret tomat, spinat",
+  "ingredients": [
+   "Kyllingebryst",
+   "fløde",
+   "parmesan",
+   "soltørret tomat"
+  ],
+  "allergens": [
+   "maelk"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/marry-me-chicken/",
+  "note": "Populær, cremet ret"
+ },
+ {
+  "id": "b68ae15b-fee0-5883-a7de-27aac87d72c4",
+  "name": "Marry Me Chicken Orzo med spinat",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Spinat",
+  "ingredients": [
+   "Kylling",
+   "orzo",
+   "fløde",
+   "spinat",
+   "parmesan"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.valdemarsro.dk/marry-me-chicken-orzo-med-spinat/",
+  "note": "One-pot variant"
+ },
+ {
+  "id": "cd1b9895-6828-5a60-891a-740b7162aef8",
+  "name": "Karbonader med ærter og gulerødder",
+  "main_protein": "Hakket svinekød",
+  "protein_tags": [
+   "svin",
+   "hakket"
+  ],
+  "vegetables": "Ærter, gulerødder",
+  "ingredients": [
+   "Hakket svinekød",
+   "ærter",
+   "gulerødder",
+   "kartofler"
+  ],
+  "allergens": [],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/karbonader-med-arter-og-gulerodder/",
+  "note": ""
+ },
+ {
+  "id": "4499235e-55ce-5622-95a6-e3cf6aad7890",
+  "name": "Kartoffelpizza",
+  "main_protein": "Varierer (bacon/skinke)",
+  "protein_tags": [
+   "svin"
+  ],
+  "vegetables": "Tomat, evt. rucola",
+  "ingredients": [
+   "Pizzadej",
+   "kartofler",
+   "ost",
+   "bacon"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "lang",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/kartoffelpizza/",
+  "note": "Kræver hævetid"
+ },
+ {
+  "id": "bcb09ebd-33d1-5210-bc6c-9bce662d77f0",
+  "name": "Hytteostpizza",
+  "main_protein": "Hytteost",
+  "protein_tags": [
+   "andet"
+  ],
+  "vegetables": "Tomat, peberfrugt",
+  "ingredients": [
+   "Pizzadej",
+   "hytteost",
+   "tomatsauce",
+   "fyld"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "lang",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/hytteostpizza/",
+  "note": "Kræver hævetid, mere protein end almindelig pizza"
+ },
+ {
+  "id": "e02b0849-2d55-5d77-8ad5-9aa3a6874e39",
+  "name": "Chow mein",
+  "main_protein": "Kylling/oksekød",
+  "protein_tags": [
+   "kylling",
+   "okse"
+  ],
+  "vegetables": "Blandede wokgrøntsager",
+  "ingredients": [
+   "Nudler",
+   "kylling eller oksekød",
+   "wokgrønt",
+   "sojasovs"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten",
+   "soja"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "hurtig",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/chow-mein/",
+  "note": ""
+ },
+ {
+  "id": "3d23e6fe-99f2-524c-9d65-753b5de56189",
+  "name": "Kung pao chicken",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Peberfrugt, forårsløg",
+  "ingredients": [
+   "Kylling",
+   "peberfrugt",
+   "peanuts",
+   "chili",
+   "soja"
+  ],
+  "allergens": [
+   "jordnoedder",
+   "gluten",
+   "soja"
+  ],
+  "kid_friendly": "delvist",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "hurtig",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/kung-pao-chicken/",
+  "note": "Obs: peanuts og chili - lav mild/nøddefri version til børn"
+ },
+ {
+  "id": "8777ea4a-8281-598e-a3fe-de9b1e1b5a91",
+  "name": "Crispy cheese tacos",
+  "main_protein": "Hakket oksekød",
+  "protein_tags": [
+   "okse",
+   "hakket"
+  ],
+  "vegetables": "Salat, tomat",
+  "ingredients": [
+   "Hakket oksekød",
+   "ostetaco-skaller",
+   "salat",
+   "salsa"
+  ],
+  "allergens": [
+   "maelk"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "hurtig",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/crispy-cheese-tacos/",
+  "note": ""
+ },
+ {
+  "id": "e72c63dd-9289-5af7-956d-dfe9c03a06df",
+  "name": "Hurtig tomatsuppe med kylling og spidskål",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Tomat, spidskål",
+  "ingredients": [
+   "Tomat",
+   "kylling",
+   "spidskål",
+   "bouillon"
+  ],
+  "allergens": [
+   "selleri"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "hurtig",
+  "months": [
+   9,
+   10,
+   11,
+   12,
+   1,
+   2
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/hurtig-tomatsuppe-med-kylling-og-kal/",
+  "note": "God balance af protein og grønt i én ret"
+ },
+ {
+  "id": "03063a7f-b571-50a6-beef-ac433c11c73a",
+  "name": "Tomattærte med timian",
+  "main_protein": "Æg, ost",
+  "protein_tags": [
+   "aeg"
+  ],
+  "vegetables": "Tomat",
+  "ingredients": [
+   "Mørdej",
+   "tomat",
+   "æg",
+   "ost",
+   "timian"
+  ],
+  "allergens": [
+   "aeg",
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/tomattarte-med-timian/",
+  "note": ""
+ },
+ {
+  "id": "6b448ed6-aa7f-5efe-94c6-bbdd7bd2b19a",
+  "name": "Quesadillas med kylling",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Peberfrugt, salsa",
+  "ingredients": [
+   "Kylling",
+   "tortilla",
+   "ost",
+   "peberfrugt"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "hurtig",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/quesadillas-med-kylling/",
+  "note": ""
+ },
+ {
+  "id": "b04d273f-6110-5617-96ef-80938b47b115",
+  "name": "Italienske kødboller i tomatsauce i ovn",
+  "main_protein": "Hakket oksekød/svin",
+  "protein_tags": [
+   "okse",
+   "svin",
+   "hakket"
+  ],
+  "vegetables": "Tomat, basilikum",
+  "ingredients": [
+   "Kødboller",
+   "tomatsauce",
+   "ost",
+   "pasta"
+  ],
+  "allergens": [
+   "aeg",
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.valdemarsro.dk/italienske-koedboller-i-tomatsauce-i-ovn/",
+  "note": ""
+ },
+ {
+  "id": "04a29d39-50d5-567c-953d-2db485d32d5f",
+  "name": "Farserede pitabrød med bulgursalat",
+  "main_protein": "Hakket kød",
+  "protein_tags": [
+   "hakket"
+  ],
+  "vegetables": "Bulgursalat med grønt",
+  "ingredients": [
+   "Hakket kød",
+   "pitabrød",
+   "bulgur",
+   "krydderier"
+  ],
+  "allergens": [
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": "https://www.valdemarsro.dk/farserede-pitabroed-med-bulgursalat/",
+  "note": ""
+ },
+ {
+  "id": "09e08e6d-6c93-5404-9263-aa8c5ac114a0",
+  "name": "Farsbrød med ovnkartofler og salat",
+  "main_protein": "Hakket kød",
+  "protein_tags": [
+   "hakket"
+  ],
+  "vegetables": "Salat",
+  "ingredients": [
+   "Hakket kød",
+   "æg",
+   "rasp",
+   "kartofler",
+   "hvidløgsdressing"
+  ],
+  "allergens": [
+   "aeg",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://mambeno.dk/opskrifter/farsbroed-med-ovnkartofler-salat-og-hvidloegsdressing/",
+  "note": "Serveres med hvidløgsdressing"
+ },
+ {
+  "id": "20b3d83f-75b0-5d66-8e5b-6c18c4eed2e2",
+  "name": "Chicken katsu med karrysovs og ris",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Tilføj grønt ved siden",
+  "ingredients": [
+   "Kyllingebryst",
+   "rasp",
+   "karrysovs",
+   "ris"
+  ],
+  "allergens": [
+   "aeg",
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://mambeno.dk/opskrifter/chicken-katsu-med-karrysovs-og-ris/",
+  "note": ""
+ },
+ {
+  "id": "0b165ff1-d102-5967-9f83-f8efa2ea3344",
+  "name": "Spareribs med flødekartofler og majssalat",
+  "main_protein": "Svinekød (spareribs)",
+  "protein_tags": [
+   "svin"
+  ],
+  "vegetables": "Majssalat",
+  "ingredients": [
+   "Spareribs",
+   "flødekartofler",
+   "majs"
+  ],
+  "allergens": [
+   "maelk"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "lang",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": "https://mambeno.dk/opskrifter/spareribs-med-floedekartofler-og-majssalat/",
+  "note": ""
+ },
+ {
+  "id": "3be791bb-805c-51da-a107-bb410b142470",
+  "name": "Medisterpølse med kold kartoffelsalat",
+  "main_protein": "Medisterpølse",
+  "protein_tags": [
+   "svin"
+  ],
+  "vegetables": "Kartoffelsalat (tilføj grønt)",
+  "ingredients": [
+   "Medisterpølse",
+   "kartofler",
+   "dressing"
+  ],
+  "allergens": [],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "hurtig",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": "https://mambeno.dk/opskrifter/medisterpoelse-med-kold-kartoffelsalat/",
+  "note": ""
+ },
+ {
+  "id": "9ff2e302-baa8-55bd-8ede-9c12b96d334b",
+  "name": "Kyllingepops med sesambagte rodfrugter og sprød salat",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Rodfrugter, salat",
+  "ingredients": [
+   "Kyllingepops",
+   "rodfrugter",
+   "sesamfrø",
+   "salat"
+  ],
+  "allergens": [
+   "aeg",
+   "gluten",
+   "sesam"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": true,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   9,
+   10,
+   11,
+   12,
+   1,
+   2
+  ],
+  "recipe_url": "https://mambeno.dk/opskrifter/kyllingepops-med-sesambagte-rodfrugter-og-sproed-salat/",
+  "note": ""
+ },
+ {
+  "id": "c928da90-f1e6-557c-b843-528334c19b0f",
+  "name": "Asiatiske frikadeller med ris og mangosalat",
+  "main_protein": "Hakket kød",
+  "protein_tags": [
+   "hakket"
+  ],
+  "vegetables": "Mangosalat",
+  "ingredients": [
+   "Hakket kød",
+   "ingefær",
+   "soja",
+   "ris",
+   "mango"
+  ],
+  "allergens": [
+   "aeg",
+   "maelk",
+   "gluten",
+   "soja"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://mambeno.dk/opskrifter/asiatiske-frikadeller-med-ris-og-mangosalat/",
+  "note": ""
+ },
+ {
+  "id": "97ed5643-8a01-51bd-9828-84ca745a919b",
+  "name": "Pad thai med kylling og gulerødder",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Gulerødder, edamame",
+  "ingredients": [
+   "Kylling",
+   "nudler",
+   "gulerødder",
+   "sojasovs",
+   "peanuts"
+  ],
+  "allergens": [
+   "jordnoedder",
+   "maelk",
+   "gluten",
+   "soja"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "hurtig",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://mambeno.dk/opskrifter/pad-thai-med-kylling-og-guleroedder-hertil-edamameboenner/",
+  "note": "Indeholder peanuts"
+ },
+ {
+  "id": "3eaaf5f5-e744-531d-8abf-c2c5055228bf",
+  "name": "Chili con pollo med ris og nachos",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Peberfrugt, tomat, bønner",
+  "ingredients": [
+   "Kylling",
+   "bønner",
+   "tomat",
+   "peberfrugt",
+   "nachos"
+  ],
+  "allergens": [],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://mambeno.dk/opskrifter/chili-con-pollo-med-ris-og-nachos/",
+  "note": ""
+ },
+ {
+  "id": "30d4f18f-603a-5bf0-8070-8998fd0fbc75",
+  "name": "Chicken bites med fritter og vandmelonsalat",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Vandmelonsalat",
+  "ingredients": [
+   "Kyllingebites",
+   "fritter",
+   "vandmelon"
+  ],
+  "allergens": [
+   "aeg",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": true,
+  "double_portion": true,
+  "effort": "hurtig",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": "https://mambeno.dk/opskrifter/chicken-bites-med-fritter-og-vandmelonsalat/",
+  "note": ""
+ },
+ {
+  "id": "d06ef153-8de9-5f38-b389-4c5d51cc90e8",
+  "name": "Kyllingedeller med flødekartofler og bønnesalat",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Bønnesalat",
+  "ingredients": [
+   "Kyllingedeller",
+   "flødekartofler",
+   "grønne bønner"
+  ],
+  "allergens": [
+   "aeg",
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://mambeno.dk/opskrifter/kyllingedeller-med-floedekartofler-og-boennesalat/",
+  "note": ""
+ },
+ {
+  "id": "8e168131-74ff-50cb-82cf-a579ef30120a",
+  "name": "Panerede thai-deller med ris og agurkesalat",
+  "main_protein": "Hakket kød/kylling",
+  "protein_tags": [
+   "kylling",
+   "hakket"
+  ],
+  "vegetables": "Agurkesalat",
+  "ingredients": [
+   "Hakket kød",
+   "thai-krydderier",
+   "ris",
+   "agurk"
+  ],
+  "allergens": [
+   "aeg",
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "delvist",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": "https://mambeno.dk/opskrifter/panerede-thai-deller-med-ris-og-agurkesalat-hertil-proteinchips/",
+  "note": "Juster styrke til børn"
+ },
+ {
+  "id": "046368bb-3e5a-526a-bb02-940ebff3731e",
+  "name": "Mixed grill med kyllingespyd og pølser",
+  "main_protein": "Kylling, pølser",
+  "protein_tags": [
+   "kylling",
+   "svin"
+  ],
+  "vegetables": "Grillet salat",
+  "ingredients": [
+   "Kyllingespyd",
+   "pølser",
+   "salat",
+   "ovnkartofler"
+  ],
+  "allergens": [],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": "https://mambeno.dk/opskrifter/mixed-grill-med-kyllingespyd-poelser-og-grillet-salat-hertil-ovnkartofler/",
+  "note": ""
+ },
+ {
+  "id": "6d654681-a30f-55f4-88df-7c12c00ed7c3",
+  "name": "Sushi med friterede rejer og avocado",
+  "main_protein": "Rejer",
+  "protein_tags": [
+   "skaldyr"
+  ],
+  "vegetables": "Avocado, agurk",
+  "ingredients": [
+   "Sushiris",
+   "rejer",
+   "avocado",
+   "agurk",
+   "nori"
+  ],
+  "allergens": [
+   "skaldyr"
+  ],
+  "kid_friendly": "delvist",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "lang",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://mambeno.dk/opskrifter/sushi-med-friterede-rejer-avocado-og-agurk-hertil-salat-med-pak-choi/",
+  "note": "Sjov familieaktivitet - tidskrævende at rulle"
+ },
+ {
+  "id": "6cdb3525-ed52-534e-83d5-98e56eab0938",
+  "name": "Fish and chips med tartarsauce og fyldig salat",
+  "main_protein": "Fisk",
+  "protein_tags": [
+   "fisk"
+  ],
+  "vegetables": "Salat",
+  "ingredients": [
+   "Fiskefilet",
+   "kartofler",
+   "tartarsauce",
+   "salat"
+  ],
+  "allergens": [
+   "fisk",
+   "aeg",
+   "gluten",
+   "sennep"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://mambeno.dk/opskrifter/fish-and-chips-med-tartarsauce-og-fyldig-salat/",
+  "note": ""
+ },
+ {
+  "id": "1e666a9f-dd1c-535f-b0c1-b77198b6027a",
+  "name": "Sprødstegt andebryst i sursødsauce med ananas",
+  "main_protein": "And",
+  "protein_tags": [
+   "and"
+  ],
+  "vegetables": "Ananas",
+  "ingredients": [
+   "Andebryst",
+   "sursødsauce",
+   "ananas",
+   "ris"
+  ],
+  "allergens": [],
+  "kid_friendly": "delvist",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "lang",
+  "months": [
+   11,
+   12,
+   1,
+   2
+  ],
+  "recipe_url": "https://mambeno.dk/opskrifter/sproedstegt-andebryst-i-sursoedsauce-med-ananas-hertil-ris/",
+  "note": "Speciel/dyrere ret - god til en weekend-aften i den kolde tid"
+ },
+ {
+  "id": "036938e4-4ea6-50fd-a253-f43633278b26",
+  "name": "Kullerloins i fajitasauce med ris, creme fraiche og tortillachips",
+  "main_protein": "Kuller (fisk)",
+  "protein_tags": [
+   "fisk"
+  ],
+  "vegetables": "Fajitasauce (peberfrugt m.m.)",
+  "ingredients": [
+   "Kullerloins",
+   "fajitakrydderi",
+   "ris",
+   "tortillachips"
+  ],
+  "allergens": [
+   "fisk",
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://mambeno.dk/opskrifter/kullerloins-i-fajitasauce-med-ris-creme-fraiche-og-tortillachips/",
+  "note": ""
+ },
+ {
+  "id": "8fc96072-5b1d-5d10-b72e-0b08f51a5677",
+  "name": "Frisk pasta med krydret svinekød i paprikasovs",
+  "main_protein": "Svinekød",
+  "protein_tags": [
+   "svin"
+  ],
+  "vegetables": "Paprika",
+  "ingredients": [
+   "Svinekød i strimler",
+   "paprikasovs",
+   "pasta"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://mambeno.dk/opskrifter/frisk-pasta-med-krydret-svinekoed-i-paprikasovs/",
+  "note": ""
+ },
+ {
+  "id": "d6e51e8c-256d-53cc-ad6a-d9b6db9fb8ed",
+  "name": "Gratineret tortellini med hakket kylling og ost",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling",
+   "hakket"
+  ],
+  "vegetables": "Tilføj grønt salat ved siden",
+  "ingredients": [
+   "Tortellini",
+   "hakket kylling",
+   "ost",
+   "fløde"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   9,
+   10,
+   11,
+   12,
+   1,
+   2
+  ],
+  "recipe_url": "https://mambeno.dk/opskrifter/gratineret-tortellini-med-hakket-kylling-og-ost/",
+  "note": ""
+ },
+ {
+  "id": "c91a6793-47fb-5ea3-a7bb-97dcc2e4d68d",
+  "name": "Bagte wraps med oksekød og smeltet ost",
+  "main_protein": "Oksekød",
+  "protein_tags": [
+   "okse"
+  ],
+  "vegetables": "Salat, tomat",
+  "ingredients": [
+   "Hakket oksekød",
+   "wraps",
+   "ost",
+   "salsa"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "hurtig",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://mambeno.dk/opskrifter/bagte-wraps-med-oksekoed-og-smeltet-ost/",
+  "note": ""
+ },
+ {
+  "id": "0a31c353-217b-5ae2-9ca3-49982002a480",
+  "name": "Panerede tunbøffer med bønnesalat, kartofler og smeltet Rondelé",
+  "main_protein": "Tun",
+  "protein_tags": [
+   "fisk"
+  ],
+  "vegetables": "Bønnesalat",
+  "ingredients": [
+   "Tunbøffer",
+   "kartofler",
+   "bønner",
+   "Rondelé-ost"
+  ],
+  "allergens": [
+   "fisk",
+   "aeg",
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "delvist",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "mellem",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": "https://mambeno.dk/opskrifter/panerede-tunboeffer-serveret-med-boennesalat-kartofler-og-smeltet-rondele/",
+  "note": ""
+ },
+ {
+  "id": "275167ab-03fc-5ad6-bc56-f3b860a89b16",
+  "name": "Kyllingefajitas",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Peberfrugt, løg",
+  "ingredients": [
+   "Kyllingestrimler",
+   "peberfrugt",
+   "løg",
+   "tortilla",
+   "lime"
+  ],
+  "allergens": [
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "hurtig",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/kyllingefajitas/",
+  "note": "Kan også laves med oksekød"
+ },
+ {
+  "id": "492920a2-4721-5c51-ad69-2bb4b755d6c1",
+  "name": "Burritos med oksekød",
+  "main_protein": "Oksekød",
+  "protein_tags": [
+   "okse"
+  ],
+  "vegetables": "Sorte bønner, avocado, peberfrugt",
+  "ingredients": [
+   "Oksekød",
+   "sorte bønner",
+   "avocado",
+   "tortilla",
+   "cheddar"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "delvist",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/burritos-opskrift/",
+  "note": "Mild version uden chipotle til børnene"
+ },
+ {
+  "id": "d7115482-03a6-5c42-ab85-f6e9fe23b4f2",
+  "name": "Enchiladas med oksekød",
+  "main_protein": "Oksekød",
+  "protein_tags": [
+   "okse"
+  ],
+  "vegetables": "Tomat/salsa",
+  "ingredients": [
+   "Hakket oksekød",
+   "tortilla",
+   "salsa",
+   "ost"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/enchiladas/",
+  "note": ""
+ },
+ {
+  "id": "01dd199a-ed59-5659-b873-491e806582fb",
+  "name": "Mexicansk tacosalat",
+  "main_protein": "Hakket oksekød",
+  "protein_tags": [
+   "okse",
+   "hakket"
+  ],
+  "vegetables": "Kidneybønner, salat, tomat",
+  "ingredients": [
+   "Hakket oksekød",
+   "kidneybønner",
+   "iceberg",
+   "nachos"
+  ],
+  "allergens": [],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "hurtig",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/mexicansk-tacosalat/",
+  "note": "Anrettet i glas - sjovt for børn"
+ },
+ {
+  "id": "c9546060-19e4-5d2d-9407-1fefeeab8bc1",
+  "name": "Mexi bowl med kylling og quinoa",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Mango, grønt, quinoa",
+  "ingredients": [
+   "Kylling",
+   "quinoa",
+   "mango",
+   "cheddar",
+   "tortillachips"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "mellem",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/mexi-bowl-med-kylling-og-quinoa/",
+  "note": ""
+ },
+ {
+  "id": "2819e572-1e84-549d-814b-17d1c158c3d0",
+  "name": "Bowl med ris og laks",
+  "main_protein": "Laks",
+  "protein_tags": [
+   "laks"
+  ],
+  "vegetables": "Edamame, gulerod, rødbede",
+  "ingredients": [
+   "Laks",
+   "ris",
+   "edamamebønner",
+   "gulerod"
+  ],
+  "allergens": [
+   "fisk",
+   "soja"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "hurtig",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/bowl-med-ris-og-laks/",
+  "note": ""
+ },
+ {
+  "id": "f375ebb8-f403-56d6-a113-b86899536944",
+  "name": "Tærte med tun",
+  "main_protein": "Tun",
+  "protein_tags": [
+   "fisk"
+  ],
+  "vegetables": "Porre",
+  "ingredients": [
+   "Tun",
+   "porre",
+   "mørdej",
+   "æg",
+   "ost"
+  ],
+  "allergens": [
+   "fisk",
+   "aeg",
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/tarte-med-tun/",
+  "note": "God til ugens fiskedag"
+ },
+ {
+  "id": "37eaf730-c51e-5ef5-8c84-2372fccdacb8",
+  "name": "Spaghetti næsten som i Italien",
+  "main_protein": "Bacon",
+  "protein_tags": [
+   "svin"
+  ],
+  "vegetables": "Tomat",
+  "ingredients": [
+   "Bacon",
+   "tomat",
+   "hvidvin (kan udelades)",
+   "spaghetti",
+   "ost"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/spaghetti-nasten-som-i-italien/",
+  "note": "Inspireret af amatriciana"
+ },
+ {
+  "id": "e36f4e0b-5417-53dd-bd9b-29a70a390529",
+  "name": "Græsk kylling",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Oliven, salatost",
+  "ingredients": [
+   "Kyllingefileter",
+   "yoghurt",
+   "salatost",
+   "oliven",
+   "oregano"
+  ],
+  "allergens": [
+   "maelk"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "hurtig",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/grask-kylling/",
+  "note": "Server med brød og grønt"
+ },
+ {
+  "id": "8c04d7cf-7f2b-518b-aa39-bc150c43b81d",
+  "name": "Bibimbap",
+  "main_protein": "Æg (tilføj kylling/oksekød for mere protein)",
+  "protein_tags": [
+   "kylling",
+   "okse",
+   "aeg"
+  ],
+  "vegetables": "Gulerod, spinat, champignon, kimchi, bønnespirer",
+  "ingredients": [
+   "Ris",
+   "æg",
+   "gulerod",
+   "spinat",
+   "champignon",
+   "gochujang"
+  ],
+  "allergens": [
+   "aeg",
+   "gluten",
+   "soja"
+  ],
+  "kid_friendly": "delvist",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.arla.dk/opskrifter/bibimbap/",
+  "note": "Koreansk. Tilføj strimler af oksekød eller kylling for mere protein"
+ },
+ {
+  "id": "dd702ccd-7846-5180-8807-60d70f29b4f4",
+  "name": "Poke bowl med teriyaki kylling",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Avocado, agurk, gulerod, mango, rødt spidskål",
+  "ingredients": [
+   "Kylling",
+   "teriyakisauce",
+   "ris",
+   "avocado",
+   "mango"
+  ],
+  "allergens": [
+   "gluten",
+   "soja"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "mellem",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": "https://bellasmadunivers.dk/opskrift/hjemmelavet-poke-bowl-med-teriyaki-kylling/",
+  "note": "Udelad chili til børnene"
+ },
+ {
+  "id": "129d4394-177e-58b1-86d1-08dac891ce7e",
+  "name": "Græske kyllingespyd med fetaost",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Tilføj græsk salat ved siden",
+  "ingredients": [
+   "Kyllingebryst",
+   "feta",
+   "krydderurter",
+   "citron"
+  ],
+  "allergens": [
+   "maelk"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": "https://bellasmadunivers.dk/opskrift/graeske-kyllingespyd-med-fetaost/",
+  "note": ""
+ },
+ {
+  "id": "61562508-3490-52a5-bf60-31988ef327c2",
+  "name": "Bagt kylling med hvidløg og persille",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Tilføj grønt/salat ved siden",
+  "ingredients": [
+   "Kyllingelår/-bryst",
+   "hvidløg",
+   "persille",
+   "citron"
+  ],
+  "allergens": [],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://bellasmadunivers.dk/opskrift/bagt-kylling-med-hvidloeg-og-persille/",
+  "note": "Enkel og nem hverdagsret"
+ },
+ {
+  "id": "3c297ddb-facd-53a7-9719-ec74c06603fc",
+  "name": "Pad Krapow",
+  "main_protein": "Hakket svin/kylling",
+  "protein_tags": [
+   "kylling",
+   "svin",
+   "hakket"
+  ],
+  "vegetables": "Basilikum/wokgrønt",
+  "ingredients": [
+   "Hakket kød",
+   "basilikum",
+   "chili",
+   "hvidløg",
+   "ris",
+   "spejlæg"
+  ],
+  "allergens": [],
+  "kid_friendly": "delvist",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "hurtig",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.madformadelskere.dk/pad-krapow/",
+  "note": "Thai - lav mild version til børn"
+ },
+ {
+  "id": "f782decc-59ff-5700-96d7-2f26d6e3e436",
+  "name": "Adana kebab i bradepande",
+  "main_protein": "Oksekød/lam",
+  "protein_tags": [
+   "okse",
+   "lam"
+  ],
+  "vegetables": "Peberfrugt/tomat",
+  "ingredients": [
+   "Hakket oksekød eller lam",
+   "krydderier",
+   "peberfrugt",
+   "fladbrød"
+  ],
+  "allergens": [
+   "gluten"
+  ],
+  "kid_friendly": "delvist",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": "https://www.madformadelskere.dk/adana-kebab-i-bradepande/",
+  "note": "Tyrkisk-inspireret"
+ },
+ {
+  "id": "7581eff4-f565-52c3-b38c-77aed1ab1936",
+  "name": "Wienerschnitzel",
+  "main_protein": "Paneret svinekød",
+  "protein_tags": [
+   "svin"
+  ],
+  "vegetables": "Tilføj ærter/salat ved siden",
+  "ingredients": [
+   "Svinekød",
+   "rasp",
+   "æg",
+   "kartofler"
+  ],
+  "allergens": [
+   "aeg",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.madformadelskere.dk/wienerschnitzel/",
+  "note": "Klassiker"
+ },
+ {
+  "id": "bb8daab2-5198-5107-9716-2081b2a7b3f6",
+  "name": "Karrykoteletter med æble og bacon",
+  "main_protein": "Svinekoteletter, bacon",
+  "protein_tags": [
+   "svin"
+  ],
+  "vegetables": "Æble (frugt), tilføj grønt",
+  "ingredients": [
+   "Koteletter",
+   "æble",
+   "bacon",
+   "karrysovs"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   9,
+   10,
+   11,
+   12,
+   1,
+   2
+  ],
+  "recipe_url": "https://www.madformadelskere.dk/landinspektor-hansens-karrykoteletter/",
+  "note": "Klassisk dansk karryret"
+ },
+ {
+  "id": "3715ee92-496c-5f07-a843-496bc91ff1ea",
+  "name": "Tacosuppe",
+  "main_protein": "Hakket oksekød, bønner",
+  "protein_tags": [
+   "okse",
+   "hakket"
+  ],
+  "vegetables": "Majs, bønner, tomat",
+  "ingredients": [
+   "Hakket oksekød",
+   "majs",
+   "bønner",
+   "tortillachips"
+  ],
+  "allergens": [
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   9,
+   10,
+   11,
+   12,
+   1,
+   2
+  ],
+  "recipe_url": "https://www.madformadelskere.dk/tacosuppe/",
+  "note": "Mexicansk-inspireret suppe"
+ },
+ {
+  "id": "941650fd-3257-57ae-9817-4dbe8e3d9c91",
+  "name": "Mongolian noodles med hakket oksekød",
+  "main_protein": "Oksekød",
+  "protein_tags": [
+   "okse",
+   "hakket"
+  ],
+  "vegetables": "Broccoli",
+  "ingredients": [
+   "Hakket oksekød",
+   "nudler",
+   "broccoli",
+   "sojasovs"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten",
+   "soja"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "hurtig",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.madformadelskere.dk/mongolian-noodles-med-hakket-oksekoed/",
+  "note": ""
+ },
+ {
+  "id": "cc42dcd8-179b-5799-9607-8f6aaf961129",
+  "name": "Ramen med kylling",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Svampe, bønnespirer, grønt",
+  "ingredients": [
+   "Kylling",
+   "nudler",
+   "æg",
+   "svampe",
+   "bouillon"
+  ],
+  "allergens": [
+   "aeg",
+   "gluten",
+   "selleri"
+  ],
+  "kid_friendly": "delvist",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "mellem",
+  "months": [
+   9,
+   10,
+   11,
+   12,
+   1,
+   2
+  ],
+  "recipe_url": "https://www.madformadelskere.dk/ramen-med-kylling/",
+  "note": ""
+ },
+ {
+  "id": "094d3999-e444-5aec-b6cf-849346d8d2bb",
+  "name": "Poke bowl med lynstegt tun",
+  "main_protein": "Tun",
+  "protein_tags": [
+   "fisk"
+  ],
+  "vegetables": "Sushiris, grøntsager",
+  "ingredients": [
+   "Tun",
+   "sushiris",
+   "avocado",
+   "edamame"
+  ],
+  "allergens": [
+   "fisk",
+   "soja"
+  ],
+  "kid_friendly": "delvist",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "hurtig",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": "https://www.madformadelskere.dk/poke-bowl-med-lynstegt-tun/",
+  "note": ""
+ },
+ {
+  "id": "a69a0a22-7093-51bb-aa0b-881b1c409585",
+  "name": "Ungarsk risret med kylling",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Peberfrugt/tomat",
+  "ingredients": [
+   "Kylling",
+   "ris",
+   "peberfrugt",
+   "tomat",
+   "paprika"
+  ],
+  "allergens": [],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.madformadelskere.dk/ungarsk-risret-med-kylling/",
+  "note": ""
+ },
+ {
+  "id": "cee2910e-892f-59ff-9468-6e92894006da",
+  "name": "Sticky kyllingefrikadeller med grøntsager",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Blandede grøntsager",
+  "ingredients": [
+   "Kyllingefars",
+   "sticky sauce",
+   "grøntsager",
+   "ris"
+  ],
+  "allergens": [
+   "aeg",
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://www.madformadelskere.dk/sticky-kyllingefrikadeller-med-groentsager/",
+  "note": ""
+ },
+ {
+  "id": "fbb1d5b3-573a-5dfe-9862-e1a539f6ebd9",
+  "name": "Souvlaki med pita og tzatziki",
+  "main_protein": "Svinekød/kylling",
+  "protein_tags": [
+   "kylling",
+   "svin"
+  ],
+  "vegetables": "Tzatziki (agurk)",
+  "ingredients": [
+   "Svine- eller kyllingekød",
+   "pita",
+   "tzatziki",
+   "krydderier"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "mellem",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": "https://mummum.dk/souvlaki-med-pita-og-tzatziki/",
+  "note": "Græsk klassiker"
+ },
+ {
+  "id": "c5795893-bb7c-5cb5-9208-a9178e775963",
+  "name": "Butter chicken kødboller",
+  "main_protein": "Kødboller (kylling)",
+  "protein_tags": [
+   "kylling",
+   "hakket"
+  ],
+  "vegetables": "Tomat",
+  "ingredients": [
+   "Kødboller",
+   "karrysauce",
+   "fløde",
+   "tomat",
+   "ris"
+  ],
+  "allergens": [
+   "aeg",
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://mummum.dk/butter-chicken-koedboller/",
+  "note": "Mild indisk-inspireret"
+ },
+ {
+  "id": "eebc5cf3-d91a-5eb8-9c52-cf3b2496d2af",
+  "name": "Vikingegryde med kylling og pølser",
+  "main_protein": "Kylling, pølser",
+  "protein_tags": [
+   "kylling",
+   "svin"
+  ],
+  "vegetables": "Tilføj grønt ved siden",
+  "ingredients": [
+   "Kylling",
+   "pølser",
+   "kartoffelmos"
+  ],
+  "allergens": [
+   "maelk"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   9,
+   10,
+   11,
+   12,
+   1,
+   2
+  ],
+  "recipe_url": "https://mummum.dk/vikingegryde-med-kylling/",
+  "note": "Dansk hverdagsklassiker"
+ },
+ {
+  "id": "fcef8bf7-0929-56b6-83f8-18c15327bc39",
+  "name": "Shepherds pie med flødekartofler",
+  "main_protein": "Hakket oksekød/lam",
+  "protein_tags": [
+   "okse",
+   "lam",
+   "hakket"
+  ],
+  "vegetables": "Gulerod, ærter",
+  "ingredients": [
+   "Hakket kød",
+   "grøntsager",
+   "flødekartofler"
+  ],
+  "allergens": [
+   "maelk"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   9,
+   10,
+   11,
+   12,
+   1,
+   2
+  ],
+  "recipe_url": "https://mummum.dk/shepherds-pie-med-floedekartofler/",
+  "note": "Britisk klassiker"
+ },
+ {
+  "id": "2f9e37b0-824b-59cd-aa95-0ea4ca204fb9",
+  "name": "Hjemmelavet döner kebab",
+  "main_protein": "Kylling/oksekød",
+  "protein_tags": [
+   "kylling",
+   "okse"
+  ],
+  "vegetables": "Salat, tomat, agurk",
+  "ingredients": [
+   "Kød",
+   "fladbrød",
+   "salat",
+   "dressing"
+  ],
+  "allergens": [
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "mellem",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://mummum.dk/hjemmelavet-doner-kebab/",
+  "note": ""
+ },
+ {
+  "id": "95cab26f-d1d0-57f3-a751-35a251021cc6",
+  "name": "Fiskefingre",
+  "main_protein": "Fisk",
+  "protein_tags": [
+   "fisk"
+  ],
+  "vegetables": "Tilføj ærter/salat ved siden",
+  "ingredients": [
+   "Fiskefingre",
+   "kartofler"
+  ],
+  "allergens": [
+   "fisk",
+   "aeg",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": true,
+  "double_portion": true,
+  "effort": "hurtig",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "recipe_url": "https://mummum.dk/fiskefingre/",
+  "note": "Hurtig favorit til hverdage"
+ },
+ {
+  "id": "0328d6cb-b2d8-584f-821f-7db692285814",
+  "name": "Grillet kylling med tomatsalat",
+  "main_protein": "Kylling",
+  "protein_tags": [
+   "kylling"
+  ],
+  "vegetables": "Tomatsalat",
+  "ingredients": [
+   "Kylling",
+   "tomat",
+   "krydderurter"
+  ],
+  "allergens": [],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "mellem",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": "https://opskrifter.coop.dk/opskrifter/grillet-kylling-med-tomatsalat-5781",
+  "note": ""
+ },
+ {
+  "id": "cef30ddc-92c6-5d92-a75f-d752512f30d3",
+  "name": "Græsk pita burger",
+  "main_protein": "Kylling/lam",
+  "protein_tags": [
+   "kylling",
+   "lam"
+  ],
+  "vegetables": "Tilføj græsk salat ved siden",
+  "ingredients": [
+   "Kød",
+   "pitabrød",
+   "feta",
+   "tzatziki"
+  ],
+  "allergens": [
+   "maelk",
+   "gluten"
+  ],
+  "kid_friendly": "ja",
+  "kid_favorite": false,
+  "double_portion": false,
+  "effort": "mellem",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "recipe_url": "https://opskrifter.coop.dk/opskrifter/graesk-pita-burger-12203",
+  "note": ""
+ },
+ {
+  "id": "9fa2c913-3d7f-5421-bd2b-4792ecdbc2c2",
+  "name": "Jordskokkesuppe toppet med chorizo",
+  "main_protein": "Chorizo",
+  "protein_tags": [
+   "svin"
+  ],
+  "vegetables": "Jordskokker",
+  "ingredients": [
+   "Jordskokker",
+   "chorizo",
+   "fløde/bouillon"
+  ],
+  "allergens": [
+   "maelk",
+   "selleri"
+  ],
+  "kid_friendly": "delvist",
+  "kid_favorite": false,
+  "double_portion": true,
+  "effort": "mellem",
+  "months": [
+   9,
+   10,
+   11,
+   12,
+   1,
+   2
+  ],
+  "recipe_url": "https://opskrifter.coop.dk/opskrifter/jordskokkesuppe-toppet-med-chorizo-10049",
+  "note": "Uvant grøntsag - server evt. med kendt tilbehør"
+ }
+]

@@ -26,6 +26,8 @@ jobs:
       - run: npm ci
       - run: npm run lint
       - run: npm run typecheck
+      - name: Test regelmotoren
+        run: npm test
       - name: Byg web
         run: npx expo export --platform web
         env:
@@ -44,3 +46,7 @@ jobs:
         run: supabase db start
       - name: Test rækkesikkerhed
         run: psql "postgresql://postgres:postgres@127.0.0.1:54322/postgres" -v ON_ERROR_STOP=1 -o /dev/null -f supabase/tests/rls.sql
+      - name: Test madplan
+        run: psql "postgresql://postgres:postgres@127.0.0.1:54322/postgres" -v ON_ERROR_STOP=1 -o /dev/null -f supabase/tests/madplan.sql
+      - name: Startkataloget er bygget ud fra rettelisten
+        run: python3 supabase/catalog/build.py && git diff --exit-code supabase/

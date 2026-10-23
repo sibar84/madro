@@ -4,6 +4,7 @@ const messages: Record<string, string> = {
   not_allowed: 'Det har du ikke adgang til.',
   last_owner: 'Du er den eneste ejer. Giv ejerskabet videre, før du forlader husstanden.',
   not_authenticated: 'Du er ikke logget ind længere. Log ind igen.',
+  invalid_plan: 'Planen kunne ikke gemmes, fordi en ret eller en person ikke findes længere. Lav planen igen.',
 };
 
 // Supabase Auths fejlkoder (error.code), så vi ikke gætter ud fra beskedens ordlyd.
