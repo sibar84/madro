@@ -1,5 +1,15 @@
-# Kun den offentlige side, prototypen, pitchen og logoerne udgives.
+# Den offentlige side, prototypen, pitchen og logoerne udgives som før.
+# Webversionen af appen bygges fra apps/madro og ligger under /app/.
 # Appens kildekode og databasen bliver i det private repository.
 [build]
-  command = "mkdir -p _site && cp -r index.html prototype pitch brand _site/"
+  command = "sh scripts/netlify-build.sh"
   publish = "_site"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Appen styrer selv sine adresser, så alle undersider under /app/ får index.html.
+[[redirects]]
+  from = "/app/*"
+  to = "/app/index.html"
+  status = 200
