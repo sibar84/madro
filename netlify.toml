@@ -1,2 +1,5 @@
+# Kun den offentlige side, prototypen, pitchen og logoerne udgives.
+# Appens kildekode og databasen bliver i det private repository.
 [build]
-  publish = "."
+  command = "mkdir -p _site && cp -r index.html prototype pitch brand _site/"
+  publish = "_site"
