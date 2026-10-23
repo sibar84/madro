@@ -14,6 +14,10 @@ if [ -z "${EXPO_PUBLIC_SUPABASE_URL:-}" ] || [ -z "${EXPO_PUBLIC_SUPABASE_ANON_K
 fi
 
 case "$EXPO_PUBLIC_SUPABASE_URL" in
+  *"<"* | *">"*)
+    echo "EXPO_PUBLIC_SUPABASE_URL er stadig eksemplet. Sæt projektets rigtige Project URL ind i Netlify."
+    exit 1
+    ;;
   https://*) ;;
   *)
     echo "EXPO_PUBLIC_SUPABASE_URL skal starte med https:// (fx https://<ref>.supabase.co). Ret værdien i Netlify."
