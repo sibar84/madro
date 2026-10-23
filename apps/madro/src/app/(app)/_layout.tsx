@@ -18,6 +18,7 @@ function HouseholdNavigator() {
     <Stack screenOptions={{ headerShown: false }}>
       <Stack.Protected guard={!!household}>
         <Stack.Screen name="(tabs)" />
+        <Stack.Screen name="familie" options={{ headerShown: true, title: 'Hvem er I?', headerBackTitle: 'Tilbage' }} />
       </Stack.Protected>
       <Stack.Protected guard={!household}>
         <Stack.Screen name="onboarding" />
