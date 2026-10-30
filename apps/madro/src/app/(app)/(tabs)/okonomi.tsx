@@ -1,5 +1,5 @@
-import { ComingSoon } from '@/screens/coming-soon';
+import { Economy } from '@/screens/economy';
 
-export default function BudgetRoute() {
-  return <ComingSoon title="Økonomi" tone="skySoft" text="Kvitteringer og budget for mad. Bygges i fase 3." />;
+export default function EconomyRoute() {
+  return <Economy />;
 }

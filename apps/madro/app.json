@@ -44,7 +44,16 @@
         }
       ],
       "expo-secure-store",
-      "expo-sqlite"
+      "expo-sqlite",
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Madro bruger kameraet til at tage billeder af kvitteringer.",
+          "photosPermission": "Madro bruger dine billeder til at læse kvitteringer.",
+          "microphonePermission": false
+        }
+      ],
+      "expo-notifications"
     ],
     "experiments": {
       "typedRoutes": true,
