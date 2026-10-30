@@ -2,6 +2,7 @@ name: Udrul database
 
 # Kører, når migrationer eller Supabase-opsætning ændres på main.
 # Kræver hemmelighederne SUPABASE_ACCESS_TOKEN, SUPABASE_PROJECT_REF og SUPABASE_DB_PASSWORD.
+# ANTHROPIC_API_KEY lægges som hemmelighed i Supabase til kvitteringslæsningen, hvis den findes.
 on:
   push:
     branches: [main]
@@ -20,6 +21,7 @@ jobs:
       SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
       SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
       PROJECT_REF: ${{ secrets.SUPABASE_PROJECT_REF }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
     steps:
       - uses: actions/checkout@v4
       - name: Spring over, hvis Supabase ikke er sat op endnu
@@ -43,3 +45,14 @@ jobs:
       - name: Login-opsætning og mailskabeloner
         if: steps.ready.outputs.ok == 'true'
         run: supabase config push --project-ref "$PROJECT_REF" --yes
+      # Nøglen skrives til en midlertidig fil, så den ikke står i kommandolinjen eller loggen.
+      - name: Nøgle til kvitteringslæsning
+        if: steps.ready.outputs.ok == 'true' && env.ANTHROPIC_API_KEY != ''
+        run: |
+          umask 077
+          printf 'ANTHROPIC_API_KEY=%s\n' "$ANTHROPIC_API_KEY" > "$RUNNER_TEMP/secrets.env"
+          supabase secrets set --env-file "$RUNNER_TEMP/secrets.env" --project-ref "$PROJECT_REF"
+          rm "$RUNNER_TEMP/secrets.env"
+      - name: Edge-funktioner
+        if: steps.ready.outputs.ok == 'true'
+        run: supabase functions deploy --project-ref "$PROJECT_REF" --use-api

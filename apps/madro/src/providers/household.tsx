@@ -9,6 +9,12 @@ export type Household = {
   id: string;
   name: string;
   role: Role;
+  /** "17:30:00" */
+  dinner_time: string;
+  /** Kroner pr. budgetperiode, eller null. */
+  food_budget: number | null;
+  /** Dagen i måneden, hvor budgetperioden starter. */
+  payday: number;
 };
 
 type HouseholdState = {
@@ -19,7 +25,7 @@ type HouseholdState = {
 
 type Loaded = { userId: string; household: Household | null };
 
-type MembershipRow = { role: Role; households: { id: string; name: string } | null };
+type MembershipRow = { role: Role; households: Omit<Household, 'role'> | null };
 
 const HouseholdContext = createContext<HouseholdState>({
   household: null,
@@ -31,7 +37,7 @@ const HouseholdContext = createContext<HouseholdState>({
 async function fetchHousehold(userId: string): Promise<Loaded> {
   const { data, error } = await supabase
     .from('memberships')
-    .select('role, households (id, name)')
+    .select('role, households (id, name, dinner_time, food_budget, payday)')
     .eq('user_id', userId)
     .order('created_at')
     .limit(1)
