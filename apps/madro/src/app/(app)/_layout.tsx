@@ -19,6 +19,7 @@ function HouseholdNavigator() {
       <Stack.Protected guard={!!household}>
         <Stack.Screen name="(tabs)" />
         <Stack.Screen name="familie" options={{ headerShown: true, title: 'Hvem er I?', headerBackTitle: 'Tilbage' }} />
+        <Stack.Screen name="feedback" options={{ headerShown: true, title: 'Fejl eller forslag', headerBackTitle: 'Tilbage' }} />
         <Stack.Screen name="faste-varer" options={{ headerShown: true, title: 'Faste varer', headerBackTitle: 'Tilbage' }} />
       </Stack.Protected>
       <Stack.Protected guard={!household}>
