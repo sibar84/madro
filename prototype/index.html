@@ -174,7 +174,7 @@ ol.how li::before{content:counter(s);width:28px;height:28px;border-radius:50%;ba
 .item input:checked{background:var(--leaf);border-color:var(--leaf)}
 .item input:checked::after{content:"";width:6px;height:11px;border:solid #fff;border-width:0 2.5px 2.5px 0;transform:rotate(45deg) translate(-1px,-1px)}
 .item .grow{flex:1;min-width:0}
-.item .grow b{font-weight:600;display:block}
+.item .grow b{font-weight:600;display:block;overflow-wrap:anywhere}
 .item:has(input:checked) .grow{opacity:.45;text-decoration:line-through}
 .item .pr{font-family:var(--mono);font-size:13px;font-weight:500;white-space:nowrap}
 .sumbar{display:flex;justify-content:space-between;align-items:center;background:var(--leaf-soft);color:var(--leaf);border-radius:16px;padding:12px 14px;font-weight:600}
@@ -633,7 +633,8 @@ h3{font-size:20px}
 .cook .x{width:44px;height:44px;border-color:#3A3935}
 .stepsrow button{width:44px;height:44px}
 .taphint{margin:0;color:#C9C4B8;font-size:var(--t-sub);text-align:center}
-.stickybar{position:sticky;bottom:80px;margin:0 -18px;padding:10px 18px;background:color-mix(in srgb,var(--paper) 90%,transparent);backdrop-filter:blur(10px);display:block;z-index:2}
+.screen:has(>.stickybar){padding-bottom:0}
+.stickybar{position:sticky;bottom:110px;margin:0 -18px 110px;padding:10px 18px;background:color-mix(in srgb,var(--paper) 90%,transparent);backdrop-filter:blur(10px);display:block;z-index:2}
 .plate .p-deal{background:#fff;color:#2B1D17;border-color:#fff;box-shadow:0 2px 8px rgba(0,0,0,.25)}
 .plate .p-deal::before{background:#2B1D17;color:#fff}
 
@@ -1124,7 +1125,7 @@ button.pill{min-height:44px;padding-inline:12px}
           <div class="member"><div class="av b">T</div><div class="grow"><b>Theo, 1 år</b><span class="small muted">Forsigtig med nødder</span></div><span class="pill p-sun">Allergi</span></div>
           <div class="member"><div class="av c">I</div><div class="grow"><b>Ida, 12 og Freja, 9</b><span class="small muted">Hjemme i lige uger</span></div><span class="pill p-leaf">Samvær</span></div>
         </div>
-        <button class="btn ghost">+ Tilføj person</button>
+        <button class="btn ghost" data-toast="Ny person tilføjet. Giv personen et navn og en rolle under Familie.">+ Tilføj person</button>
         <div class="actions" style="margin-top:auto"><button class="btn ghost" data-go="ugen">Senere</button><button class="btn beet" data-go="ugen" data-ivdone="fam" data-toast="Familien er gemt. Portioner og smag passer nu til jer.">Gem</button></div>
       </section>
 
@@ -1589,7 +1590,7 @@ button.pill{min-height:44px;padding-inline:12px}
         <button class="oneline" data-go="spisetider"><span class="grow">Spisetider og kok</span><span class="small muted">Hverdage 17:30 ›</span></button>
         <button class="changed" data-go="praef" style="background:var(--leaf-soft)"><svg class="ic" viewBox="0 0 24 24" style="color:var(--leaf)"><path d="M12 21s-7-4.5-7-11a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 6.5-7 11-7 11z"/></svg><div><b>Allergier og præferencer</b><span class="small muted">Hvem kan lide hvad, og hvad skal undgås</span></div></button>
         <div class="card">
-          <div class="row between" style="margin-bottom:4px"><h3 style="font-size:15px">Familiens regler</h3><button class="link">+ Ny regel</button></div>
+          <div class="row between" style="margin-bottom:4px"><h3 style="font-size:15px">Familiens regler</h3><button class="link" data-go="praef">+ Ny regel</button></div>
           <div class="rule"><span class="switch"><input type="checkbox" checked aria-label="Laks"><i></i></span><div>Laks kun på dage hvor Mads ikke spiser med.</div></div>
           <div class="rule"><span class="switch"><input type="checkbox" checked aria-label="Kog og rest"><i></i></span><div>Skift mellem kog-dag og rest-dag.</div></div>
           <div class="rule"><span class="switch"><input type="checkbox" checked aria-label="Protein og grønt"><i></i></span><div>Protein og grønt hver dag.</div></div>
@@ -1807,7 +1808,7 @@ button.pill{min-height:44px;padding-inline:12px}
         <button class="back" data-go="opskrifter"><svg class="ic" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>Opskrifter</button>
         <h1>Tilføj opskrift</h1>
         <div class="seg" id="addMode"><button aria-pressed="true">Fra link</button><button aria-pressed="false">Skriv selv</button><button aria-pressed="false">Foto af side</button></div>
-        <div class="addrow"><input class="inp" id="recUrl" value="madblog.dk/kylling-i-karry-med-aebler" aria-label="Link til opskrift"><button class="btn sm">Hent</button></div>
+        <div class="addrow"><input class="inp" id="recUrl" value="madblog.dk/kylling-i-karry-med-aebler" aria-label="Link til opskrift"><button class="btn sm" data-toast="Opskriften er hentet. Tjek ingredienser og portioner nedenfor.">Hent</button></div>
         <div class="card" style="display:flex;flex-direction:column;gap:12px">
           <div class="row between"><span class="pill p-leaf">Madro har læst opskriften</span><span class="small muted">5 trin fundet</span></div>
           <label class="field">Navn<input id="recName" value="Kylling i karry med æbler"></label>
@@ -2390,10 +2391,19 @@ button.pill{min-height:44px;padding-inline:12px}
     const t=document.getElementById('toast');t.querySelectorAll('.undo').forEach(x=>x.remove());document.getElementById('toastText').textContent=msg;t.hidden=false;
     clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.hidden=true,3200);
   }
-  function closeSheets(){document.querySelectorAll('.sheet-wrap').forEach(s=>s.hidden=true)}
+  let sheetReturn=null;
+  function closeSheets(){const open=[...document.querySelectorAll('.sheet-wrap')].some(s=>!s.hidden);document.querySelectorAll('.sheet-wrap').forEach(s=>s.hidden=true);
+    if(open&&sheetReturn&&document.contains(sheetReturn)&&sheetReturn.offsetParent)sheetReturn.focus();sheetReturn=null}
+  function openSheet(id,from){const w=document.getElementById(id);if(!w)return;sheetReturn=from||document.activeElement;w.hidden=false;
+    const f=w.querySelector('input:not([type=hidden]),select,textarea,button,[href]');if(f)setTimeout(()=>f.focus({preventScroll:true}),0)}
+  document.querySelectorAll('.sheet-wrap [role=dialog]').forEach(d=>d.setAttribute('aria-modal','true'));
+  document.addEventListener('keydown',e=>{const w=[...document.querySelectorAll('.sheet-wrap')].find(s=>!s.hidden);if(!w)return;
+    if(e.key==='Escape'){e.preventDefault();closeSheets();return}
+    if(e.key==='Tab'){const f=[...w.querySelectorAll('input:not([type=hidden]),select,textarea,button,[href]')].filter(x=>x.offsetParent&&!x.disabled);if(!f.length)return;
+      const a=f[0],z=f[f.length-1];if(e.shiftKey&&document.activeElement===a){e.preventDefault();z.focus()}else if(!e.shiftKey&&document.activeElement===z){e.preventDefault();a.focus()}else if(!w.contains(document.activeElement)){e.preventDefault();a.focus()}}});
 
   document.addEventListener('click',e=>{
-    const sh=e.target.closest('[data-sheet]'); if(sh){document.getElementById(sh.dataset.sheet).hidden=false;return}
+    const sh=e.target.closest('[data-sheet]'); if(sh){openSheet(sh.dataset.sheet,sh);return}
     if(e.target.classList.contains('sheet-wrap')||e.target.closest('[data-close]')){closeSheets();return}
     const sw=e.target.closest('[data-swap]');
     if(sw){document.querySelectorAll('[data-dish="man"]').forEach(el=>el.textContent=sw.dataset.swap);closeSheets();toast('Mandag er byttet. Indkøbslisten er opdateret.');return}
@@ -2405,7 +2415,7 @@ button.pill{min-height:44px;padding-inline:12px}
     if(chip){
       if(chip.closest('#offerChips')){document.querySelectorAll('#offerChips .chip').forEach(x=>x.setAttribute('aria-pressed',x===chip));
         const cat=chip.dataset.cat;document.querySelectorAll('#offers .offer').forEach(o=>o.hidden=!(cat==='alle'||o.dataset.cat===cat))}
-      else chip.setAttribute('aria-pressed',chip.getAttribute('aria-pressed')!=='true');
+      else if(!chip.closest('#busyDays,#recChips,#payWho')) chip.setAttribute('aria-pressed',chip.getAttribute('aria-pressed')!=='true');
       return}
     const g=e.target.closest('[data-go]'); if(g){go(g.dataset.go); if(g.dataset.toast) toast(g.dataset.toast); return}
     const t=e.target.closest('[data-toast]'); if(t){closeSheets();toast(t.dataset.toast)}
