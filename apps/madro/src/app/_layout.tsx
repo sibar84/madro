@@ -5,14 +5,16 @@ import { useEffect } from 'react';
 import { ErrorScreen } from '@/components/error-screen';
 import { Colors } from '@/constants/theme';
 import { useColorScheme } from '@/hooks/use-color-scheme';
+import { startMonitoring, wrapRoot } from '@/lib/monitoring';
 import { SessionProvider, useSession } from '@/providers/session';
 
+startMonitoring();
 SplashScreen.preventAutoHideAsync();
 
 // En fejl et sted i appen viser en forklaring i stedet for en blank side.
 export { ErrorScreen as ErrorBoundary };
 
-export default function RootLayout() {
+function RootLayout() {
   const scheme = useColorScheme() === 'dark' ? 'dark' : 'light';
   const base = scheme === 'dark' ? DarkTheme : DefaultTheme;
   const colors = Colors[scheme];
@@ -36,6 +38,8 @@ export default function RootLayout() {
     </ThemeProvider>
   );
 }
+
+export default wrapRoot(RootLayout);
 
 function RootNavigator() {
   const { session, loading } = useSession();

@@ -7,12 +7,14 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Button } from '@/components/button';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
+import { reportError } from '@/lib/monitoring';
 import { MaxContentWidth, Spacing } from '@/constants/theme';
 
 /** Vises i stedet for en blank skærm, når appen går ned. Fejlen står på skærmen, så den kan sendes videre. */
 export function ErrorScreen({ error, retry }: ErrorBoundaryProps) {
   useEffect(() => {
     console.error('Madro gik ned', error);
+    reportError(error);
     SplashScreen.hideAsync();
   }, [error]);
 
