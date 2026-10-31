@@ -80,6 +80,7 @@ export function Today() {
 
       <View style={styles.actions}>
         {canInvite && <Button title="Invitér en voksen" variant="secondary" onPress={invite} loading={busy} />}
+        <Button title="Send fejl eller forslag" variant="secondary" onPress={() => router.navigate('/feedback')} />
         <Button title="Log ud" variant="secondary" onPress={() => supabase.auth.signOut()} />
       </View>
 

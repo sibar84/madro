@@ -63,5 +63,7 @@ jobs:
         run: psql "postgresql://postgres:postgres@127.0.0.1:54322/postgres" -v ON_ERROR_STOP=1 -o /dev/null -f supabase/tests/indkob.sql
       - name: Test køkken og økonomi
         run: psql "postgresql://postgres:postgres@127.0.0.1:54322/postgres" -v ON_ERROR_STOP=1 -o /dev/null -f supabase/tests/oekonomi.sql
+      - name: Test fejl og forslag
+        run: psql "postgresql://postgres:postgres@127.0.0.1:54322/postgres" -v ON_ERROR_STOP=1 -o /dev/null -f supabase/tests/feedback.sql
       - name: Startkataloget er bygget ud fra rettelisten
         run: python3 supabase/catalog/build.py && git diff --exit-code supabase/
