@@ -401,6 +401,9 @@ deno_version = 2
 [functions.read-receipt]
 verify_jwt = false
 
+[functions.import-recipe]
+verify_jwt = false
+
 [analytics]
 enabled = true
 port = 54327
