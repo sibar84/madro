@@ -16,6 +16,7 @@ import { today } from '@/lib/meal-plan';
 import { remindersEnabled, remindersSupported, scheduleReminders, setRemindersEnabled } from '@/lib/reminders';
 import { clock, COOK_MINUTES, DINNER_TIMES, reminders, shortTime, startTime, type CookingDay } from '@/kitchen/timing';
 import { mondayOf } from '@/planner/engine';
+import { RecipeCard } from '@/screens/recipe-card';
 import { names } from '@/planner/texts';
 import { useHousehold } from '@/providers/household';
 
@@ -127,6 +128,8 @@ export function Kitchen() {
           {!tonight && <Button title="Lav ugens plan" onPress={() => router.navigate('/plan')} />}
         </ThemedView>
       )}
+
+      {dish && tonight && <RecipeCard key={dish.id} dishId={dish.id} dishName={dish.name} />}
 
       <View style={styles.section}>
         <ThemedText type="head">Spisetid</ThemedText>
