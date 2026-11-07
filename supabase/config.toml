@@ -404,6 +404,9 @@ verify_jwt = false
 [functions.import-recipe]
 verify_jwt = false
 
+[functions.read-calendar]
+verify_jwt = false
+
 [analytics]
 enabled = true
 port = 54327

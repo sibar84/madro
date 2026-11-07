@@ -14,6 +14,7 @@ import { today } from '@/lib/meal-plan';
 import { addDays, mondayOf } from '@/planner/engine';
 import { names, WEEKDAYS, WEEKDAYS_SHORT } from '@/planner/texts';
 import { useHousehold } from '@/providers/household';
+import { CalendarSync } from '@/screens/calendar-sync';
 
 function dateLabel(date: string, weekday: number): string {
   const [, month, day] = date.split('-').map(Number);
@@ -87,6 +88,7 @@ export function Plan() {
                   />
                 ))}
               </ChipRow>
+              <CalendarSync weekStart={weekStart} onBusyDays={setBusyDays} />
 
               {!plan ? (
                 <Button title="Lav ugens plan" onPress={() => makePlan(busyDays)} loading={saving} />

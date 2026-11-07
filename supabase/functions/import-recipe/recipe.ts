@@ -2,7 +2,7 @@
 //
 // De fleste opskriftssider skriver opskriften som strukturerede data (JSON-LD),
 // som læses direkte uden en sprogmodel. Filen må ikke importere andre filer,
-// så testene kan køre direkte.
+// så testene kan køre direkte, bortset fra de fælles adresseregler nederst.
 
 export type Step = { text: string; timer_seconds: number | null };
 
@@ -109,28 +109,4 @@ export function pageText(html: string, max = 30000): string {
   return plain(html.replace(/<(script|style|nav|footer|header|svg)[\s\S]*?<\/\1>/gi, ' ')).slice(0, max);
 }
 
-const PRIVATE_V4 = [/^0\./, /^10\./, /^127\./, /^169\.254\./, /^172\.(1[6-9]|2\d|3[01])\./, /^192\.168\./, /^100\.(6[4-9]|[7-9]\d|1[01]\d|12[0-7])\./];
-
-/** Kun almindelige https-adresser til offentlige sider. */
-export function safeUrl(input: string): URL | null {
-  let url: URL;
-  try {
-    url = new URL(input.trim());
-  } catch {
-    return null;
-  }
-  const host = url.hostname.toLowerCase();
-  if (url.protocol !== 'https:' || url.username || url.password || (url.port && url.port !== '443')) return null;
-  if (!host.includes('.') || host.endsWith('.local') || host.endsWith('.internal') || host.endsWith('.localhost')) return null;
-  if (/^[\d.]+$/.test(host) || host.includes(':') || host.startsWith('[')) return null;
-  return url;
-}
-
-/** Er adressen privat eller intern? Bruges på det, navnet slår op til. */
-export function isPrivateAddress(ip: string): boolean {
-  if (ip.includes(':')) {
-    const v = ip.toLowerCase();
-    return v === '::1' || v === '::' || v.startsWith('fc') || v.startsWith('fd') || v.startsWith('fe80') || v.startsWith('::ffff:');
-  }
-  return PRIVATE_V4.some((p) => p.test(ip));
-}
+export { isPrivateAddress, safeUrl } from '../_shared/net.ts';

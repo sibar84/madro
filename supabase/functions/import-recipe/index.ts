@@ -8,13 +8,13 @@
 import Anthropic from 'npm:@anthropic-ai/sdk@1.3.0';
 import { createClient } from 'npm:@supabase/supabase-js@2.118.0';
 
-import { fromJsonLd, isPrivateAddress, pageText, safeUrl, toRecipe, type Recipe } from './recipe.ts';
+import { fetchText } from '../_shared/net.ts';
+import { fromJsonLd, pageText, safeUrl, toRecipe, type Recipe } from './recipe.ts';
 
 const SUPABASE_URL = Deno.env.get('SUPABASE_URL')!;
 const SERVICE_KEY = Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!;
 
 const MAX_BYTES = 2_000_000;
-const MAX_REDIRECTS = 3;
 
 const cors = {
   'Access-Control-Allow-Origin': '*',
@@ -42,56 +42,13 @@ const INSTRUCTIONS =
   'ingredienser (én pr. linje, med mængde) og fremgangsmåde (ét trin pr. punkt). Skriv på sidens eget sprog. ' +
   'Opfind ingenting. Findes der ingen opskrift på siden, så svar med tomme lister.';
 
-/** Må navnet slå op til en offentlig adresse? Hvis opslag ikke kan bruges her, afgør navnet alene. */
-async function isPublicHost(host: string): Promise<boolean> {
-  try {
-    const [v4, v6] = await Promise.all([
-      Deno.resolveDns(host, 'A').catch(() => [] as string[]),
-      Deno.resolveDns(host, 'AAAA').catch(() => [] as string[]),
-    ]);
-    const all = [...v4, ...v6];
-    return all.length === 0 || !all.some(isPrivateAddress);
-  } catch {
-    return true;
-  }
-}
-
-/** Henter siden, følger få omdirigeringer og tjekker hver adresse. */
-async function fetchPage(start: URL): Promise<string | null> {
-  let url = start;
-  for (let hop = 0; hop <= MAX_REDIRECTS; hop++) {
-    if (!(await isPublicHost(url.hostname))) return null;
-    const response = await fetch(url, {
-      redirect: 'manual',
-      signal: AbortSignal.timeout(8000),
-      headers: { Accept: 'text/html,application/xhtml+xml', 'User-Agent': 'Madro opskriftslæser' },
-    });
-    if (response.status >= 300 && response.status < 400) {
-      const next = response.headers.get('location');
-      const target = next ? safeUrl(new URL(next, url).toString()) : null;
-      if (!target) return null;
-      url = target;
-      continue;
-    }
-    if (!response.ok || !(response.headers.get('content-type') ?? '').includes('html')) return null;
-    const reader = response.body?.getReader();
-    if (!reader) return null;
-    const decoder = new TextDecoder();
-    let html = '';
-    let size = 0;
-    while (true) {
-      const { done, value } = await reader.read();
-      if (done) break;
-      size += value.length;
-      if (size > MAX_BYTES) {
-        await reader.cancel();
-        break;
-      }
-      html += decoder.decode(value, { stream: true });
-    }
-    return html;
-  }
-  return null;
+function fetchPage(url: URL): Promise<string | null> {
+  return fetchText(url, {
+    accept: 'text/html,application/xhtml+xml',
+    agent: 'Madro opskriftslæser',
+    types: ['html'],
+    maxBytes: MAX_BYTES,
+  });
 }
 
 async function readWithClaude(apiKey: string, html: string): Promise<Recipe | null> {
