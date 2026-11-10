@@ -1,6 +1,6 @@
 import * as WebBrowser from 'expo-web-browser';
-import { useRouter } from 'expo-router';
-import { useEffect, useState } from 'react';
+import { useFocusEffect, useRouter } from 'expo-router';
+import { useCallback, useEffect, useState } from 'react';
 import { ActivityIndicator, StyleSheet, View } from 'react-native';
 
 import { Button } from '@/components/button';
@@ -18,6 +18,8 @@ import { clock, COOK_MINUTES, DINNER_TIMES, reminders, shortTime, startTime, typ
 import { mondayOf } from '@/planner/engine';
 import { RecipeCard } from '@/screens/recipe-card';
 import { names } from '@/planner/texts';
+import { fetchPantry } from '@/lib/pantry';
+import { expiryLabel, useFirst, type PantryItem } from '@/pantry/pantry';
 import { useHousehold } from '@/providers/household';
 
 /** Dagens ret med tidsplan, og påmindelse om at gå i gang. */
@@ -27,6 +29,12 @@ export function Kitchen() {
   const date = today();
   const { plan, dishes, persons, loading } = useMealPlan(mondayOf(date));
   const [remind, setRemind] = useState(false);
+  const [pantry, setPantry] = useState<PantryItem[]>([]);
+  const loadPantry = useCallback(() => {
+    if (household) fetchPantry(household.id).then(setPantry).catch(() => {});
+  }, [household]);
+  useFocusEffect(loadPantry);
+  const first = useFirst(pantry, date);
   const [error, setError] = useState<string | null>(null);
   const [saving, setSaving] = useState(false);
   const canEdit = household?.role === 'owner' || household?.role === 'adult';
@@ -130,6 +138,22 @@ export function Kitchen() {
       )}
 
       {dish && tonight && <RecipeCard key={dish.id} dishId={dish.id} dishName={dish.name} />}
+
+      <ThemedView type="card" style={styles.card}>
+        <ThemedText type="head">Brug først</ThemedText>
+        {first.length > 0 ? (
+          first.slice(0, 5).map((item) => (
+            <ThemedText key={item.id}>
+              {item.name}: {expiryLabel(item, date).toLowerCase()}
+            </ThemedText>
+          ))
+        ) : (
+          <ThemedText themeColor="textSecondary">
+            {pantry.length > 0 ? 'Intet i lageret skal bruges de næste dage.' : 'Skriv, hvad I har i huset, så minder Madro jer om det, der skal bruges.'}
+          </ThemedText>
+        )}
+        <Button title="Se lageret" variant="secondary" onPress={() => router.navigate('/lager')} />
+      </ThemedView>
 
       <View style={styles.section}>
         <ThemedText type="head">Spisetid</ThemedText>
